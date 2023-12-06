@@ -1,0 +1,14 @@
+###################################### Errores pendientes de modificacion ##################################################
+// CODIGO
+1. Menu de Restore/Recalcular hay que agregar las otras tablas y ver porque rompe todo.
+	1 Bis. Al 1 hay que agregarle lo de los digitos verificadores de los demas
+
+# Pulir detalles
+2. Agregar los puntos B, C y D de la bitacora. (26 en la hoja del profe).
+
+3. Crea una famila nueva, le agrega 1 SOLO PERMISO, despues si hces algo mas se rompe a la mierda
+
+4. Los controles custom no existen
+
+// CARPETA
+6. Imprimir xd

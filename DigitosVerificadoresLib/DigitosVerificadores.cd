@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DigitosVerificadoresLib.services.DVService">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>services\DVService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DigitosVerificadoresLib.IDVDAO&lt;T&gt;">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACAAAAAAAAACAARAAAAAAAAAAAAAAIEAAA=</HashCode>
+      <FileName>interfaces\IDVDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DigitosVerificadoresLib.interfaces.IDVEntity">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>interfaces\IDVEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DigitosVerificadoresLib.interfaces.IDVService">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>interfaces\IDVService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

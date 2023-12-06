@@ -1,0 +1,76 @@
+﻿* {
+    background-color: rgb(28, 28, 28);
+    color: whitesmoke;
+    font-family: bahnschrift,sans-serif;
+}
+
+footer {
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
+input {
+    margin: 5px;
+    border-radius: 8px;
+    border-color: goldenrod;
+    border-style: ridge;
+    border-width: 3px;
+    height: 30px;
+    width: 200px;
+    font-size: 16px;
+    font-family: 'bahnschrift';
+    text-align: center;
+}
+
+[type="submit"] {
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'bahnschrift';
+    border-radius: 8px;
+    border-color: goldenrod;
+    border-style: ridge;
+    border-width: 3px;
+    width: 200px;
+    height: 50px;
+}
+
+a:hover, a:focus {
+    opacity: 0.7;
+}
+
+h1 {
+    color: goldenrod;
+    font-family: 'Roboto',sans-serif;
+}
+
+.header {
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+}
+
+hr {
+    border-style: double;
+    border-color: rgb(148, 109, 10);
+    border-width: 2px;
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.customDrop {
+    background: #211f1f;
+    color: #808080;
+    margin: 10px 10px;
+}
+
+.customLabel {
+    padding: 1px 1px 1px 200px;
+}
+
+.logOut {
+    padding: 1px 1px 1px 100px;
+}

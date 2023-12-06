@@ -1,0 +1,43 @@
+﻿* {
+    background-color: rgb(28, 28, 28);
+    color: whitesmoke;
+    font-family: bahnschrift,sans-serif;
+}
+
+input {
+    margin: 5px;
+    border-radius: 8px;
+    border-color: goldenrod;
+    border-style: ridge;
+    border-width: 3px;
+    height: 30px;
+    width: 200px;
+    font-size: 16px;
+    font-family: 'bahnschrift';
+    text-align: center;
+}
+
+[type="submit"] {
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'bahnschrift';
+    border-radius: 8px;
+    border-color: goldenrod;
+    border-style: ridge;
+    border-width: 3px;
+    width: 200px;
+    height: 50px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 2em;
+    color: goldenrod;
+    text-transform: uppercase;
+    text-align: center;
+}
