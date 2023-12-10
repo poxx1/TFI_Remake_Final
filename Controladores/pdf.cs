@@ -26,7 +26,8 @@ namespace Controladores
 
             PdfPTable table = new PdfPTable(1);
             Document document = new Document(PageSize.A4, 10f, 20f, 20f, 10f);
-            table.DefaultCell.BackgroundColor = new iTextSharp.text.BaseColor(210, 210, 210);
+
+            table.DefaultCell.BackgroundColor = new iTextSharp.text.BaseColor(152, 115, 22);
 
             table.DefaultCell.Padding = 3;
             table.WidthPercentage = 100;
@@ -35,17 +36,17 @@ namespace Controladores
             PdfPCell cell1 = new PdfPCell();
             PdfPCell cell2 = new PdfPCell();
 
-            cell1.BorderColor = new iTextSharp.text.BaseColor(200, 200, 210);
-            cell1.BackgroundColor = new iTextSharp.text.BaseColor(210, 210, 210);
+            cell1.BorderColor = new iTextSharp.text.BaseColor(218, 165, 32);
+            cell1.BackgroundColor = new iTextSharp.text.BaseColor(152, 115, 22);
 
-            cell2 = new PdfPCell(new Phrase("\n| SayIT | Factura - [B] - Consumidor Final\n\r", new Font(Font.FontFamily.TIMES_ROMAN, 20, Font.BOLD)));
+            cell2 = new PdfPCell(new Phrase("\n | SayIT | Comprobante - Consumidor Final\n\r", new Font(Font.FontFamily.HELVETICA, 20, Font.BOLD)));
 
             cell2.HorizontalAlignment = Element.ALIGN_CENTER;
             //cell2.VerticalAlignment = Element.ALIGN_JUSTIFIED_ALL;
             cell2.Colspan = 2;
-            cell2.BorderColor = new iTextSharp.text.BaseColor(100, 100, 200);
+            cell2.BorderColor = new iTextSharp.text.BaseColor(218, 165, 32);
             cell2.BorderWidth = 2;
-            cell2.BackgroundColor = new iTextSharp.text.BaseColor(150, 150, 240);
+            cell2.BackgroundColor = new iTextSharp.text.BaseColor(152, 115, 22);
             table.AddCell(cell2);
             cell1 = new PdfPCell(new Phrase($"Fecha de la factura: {DateTime.Now.ToString("dd/MM/yy hh:mm:ss")} \n", new Font(Font.FontFamily.TIMES_ROMAN, 14)));
             cell1.HorizontalAlignment = Element.ALIGN_LEFT;
@@ -60,7 +61,7 @@ namespace Controladores
             tablaUsuario.DefaultCell.Padding = 3;
             tablaUsuario.WidthPercentage = 100;
             tablaUsuario.HorizontalAlignment = Element.ALIGN_LEFT;
-            tablaUsuario.DefaultCell.BackgroundColor = new iTextSharp.text.BaseColor(220, 220, 220);
+            tablaUsuario.DefaultCell.BackgroundColor = new iTextSharp.text.BaseColor(255, 234, 128);
 
             //Nombre de usuario - Sugerencia que lo saque
             //tablaUsuario.AddCell(new Phrase("Usuario que realiza la compra: " + SessionModel.GetUser().Nickname, new Font(Font.FontFamily.HELVETICA, 14)));
@@ -81,13 +82,13 @@ namespace Controladores
             #region Header de los items
             PdfPTable tableHeader = new PdfPTable(2); //lista.Count() El numero determina las columnas
 
-            tableHeader.AddCell(new Phrase("Nombre", new Font(Font.FontFamily.TIMES_ROMAN, 16)));
-            tableHeader.AddCell(new Phrase("Precio", new Font(Font.FontFamily.TIMES_ROMAN, 16)));
+            tableHeader.AddCell(new Phrase("Nombre", new Font(Font.FontFamily.COURIER, 16)));
+            tableHeader.AddCell(new Phrase("Precio", new Font(Font.FontFamily.COURIER, 16)));
 
             tableHeader.DefaultCell.Padding = 3;
             tableHeader.WidthPercentage = 100;
             tableHeader.HorizontalAlignment = Element.ALIGN_CENTER;
-            tableHeader.DefaultCell.BackgroundColor = new iTextSharp.text.BaseColor(230, 230, 240);
+            tableHeader.DefaultCell.BackgroundColor = new iTextSharp.text.BaseColor(255, 234, 128);
             //tableHeader.AddCell(new Phrase("\n " + "Cantidad" + "\n ", new Font(Font.FontFamily.TIMES_ROMAN, 14))); No puedo comprar el curso mas de una vez
 
             #endregion
@@ -99,7 +100,7 @@ namespace Controladores
             table2.DefaultCell.Padding = 3;
             table2.WidthPercentage = 100;
             table2.HorizontalAlignment = Element.ALIGN_LEFT;
-            table2.DefaultCell.BackgroundColor = new iTextSharp.text.BaseColor(240, 240, 240);
+            table2.DefaultCell.BackgroundColor = new iTextSharp.text.BaseColor(255, 234, 128);
 
             //Hay que modificar esto para agregar los cursos con nombre, detalle y precio
             foreach (CursosModel field in lista)

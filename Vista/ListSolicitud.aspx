@@ -5,7 +5,7 @@
         <div>
             <asp:Label ID="Label2" runat="server" Text="Lista de solicitudes pendientes"></asp:Label>
             <br />
-            <asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="209px">
+            <asp:DropDownList ID="DropDownList1" runat="server" Height="40px" Width="220px">
             </asp:DropDownList>
             <br />
             <br />
