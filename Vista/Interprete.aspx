@@ -27,7 +27,7 @@
                     videoSource.src = '/Letters/' + str[i] + '-abc.mp4'
                     video.load();
                     video.play();
-                    await new Promise(r => setTimeout(r, 1200));
+                    await new Promise(r => setTimeout(r, 1000));
                     console.log(videoSource.src)
                 }
                 document.getElementById("Button2").removeAttribute("disabled");
