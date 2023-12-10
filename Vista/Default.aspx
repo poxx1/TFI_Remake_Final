@@ -5,6 +5,7 @@
     <main>
         <section class="row" aria-labelledby="aspnetTitle">
             <h1 id="aspnetTitle">TFI - 2023</h1>
+            <h2>Pagina de inicio</h2>
             <p>Say IT es una plataforma que brinda servicios a personas con discapacidades auditivas.</p>
         </section>
 

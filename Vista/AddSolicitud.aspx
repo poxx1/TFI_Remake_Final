@@ -3,9 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Template para reutilizar"></asp:Label>
-            <br />
-            <br />
+            <h3>Agregar una solicitud de traduccion</h3><hr />
             <asp:Label ID="Label2" runat="server" Text="Palabra a agregar"></asp:Label>
             <br />
             <asp:TextBox ID="TextBox1" runat="server" Width="200px"></asp:TextBox>
@@ -13,9 +11,8 @@
             <br />
             Descripcion<br />
             <asp:TextBox ID="TextBox2" runat="server" Width="200px"></asp:TextBox>
-            <br />
-            <br />
-            <asp:Button ID="Button1" runat="server" Text="Realizar solicitud" Width="132px" OnClick="Button1_Click" />
+            <hr />
+            <asp:Button ID="Button1" runat="server" Text="Realizar solicitud" OnClick="Button1_Click" />
             <br />
         </div>
     </main>

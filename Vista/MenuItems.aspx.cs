@@ -23,7 +23,6 @@ namespace Vista
             if (!IsPostBack)
             {
                 ListBox1.SelectedIndex = 0;
-                //FALTA agregar lista a la session para que se guarde.
                 if (Session["carrito"] == null)
                 {
                     items = new List<string>();

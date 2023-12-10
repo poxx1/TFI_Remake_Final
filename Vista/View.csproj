@@ -150,6 +150,8 @@
     <Content Include="MenuCompras.aspx" />
     <Content Include="MenuItems.aspx" />
     <Content Include="MenuTraductor.aspx" />
+    <Content Include="MenuUsuarios.aspx" />
+    <Content Include="MenuUtilidad.aspx" />
     <Content Include="salidasXML.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -407,6 +409,20 @@
     </Compile>
     <Compile Include="MenuTraductor.aspx.designer.cs">
       <DependentUpon>MenuTraductor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUsuarios.aspx.cs">
+      <DependentUpon>MenuUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuUsuarios.aspx.designer.cs">
+      <DependentUpon>MenuUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUtilidad.aspx.cs">
+      <DependentUpon>MenuUtilidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuUtilidad.aspx.designer.cs">
+      <DependentUpon>MenuUtilidad.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="salidasXML.aspx.cs">

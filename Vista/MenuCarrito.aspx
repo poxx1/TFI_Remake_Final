@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <div>
-            <h2>Carrito de compras</h2>
+            <h3>Carrito de compras</h3>
             Desde este menu podra revisar los items que eligio comprar y podra pasar a realizar el pago y la impresion de la factura correspondiente.<br />
             <hr />
             Lista de cursos<br />

@@ -2,8 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h2 id="title"><%: Title %></h2>
-        Desde este menu podra cerrar la sesion de usuario.
+        <h3>Cerrar sesion</h3>
         <hr />
          <div>
             <asp:Label ID="Label1" runat="server" Text="Usuario actualmente logeado"></asp:Label> <br />

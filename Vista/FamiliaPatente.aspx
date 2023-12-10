@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="/Style/TreeView.css" />
     <main aria-labelledby="title">
         <div>
+            <h3>Editar familia - patente</h3>
             <asp:Button ID="Button1" runat="server" Text="Listar permisos" OnClick="Button1_Click" />
             <br />
             <br />
@@ -18,6 +19,7 @@
             <asp:DropDownList ID="DropDownList3" runat="server" OnSelectedIndexChanged="DropDownList3_SelectedIndexChanged"></asp:DropDownList>
             <br />
             <br />
+            <hr />
             <div class="treeDiv">
                 Lista de permisos:<asp:TreeView ID="TreeView1" runat="server" Width="84px" NodeStyle-CssClass="treeNode"
                     RootNodeStyle-CssClass="rootNode"
@@ -25,7 +27,7 @@
                 </asp:TreeView>
                 <br />
             </div>
-            <br />
+            <hr />
             <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Agregar permiso" Width="180px" />
             <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Quitar permiso" Width="180px" />
             <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Guardar familia" />

@@ -4,6 +4,7 @@
     <link href="/Style/DataGrid.css" rel="stylesheet" />
     <main aria-labelledby="title">
          <div>
+             <h3>Bitacora</h3><hr />
              Fecha&nbsp;&nbsp;
              Desde:
              <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
@@ -32,6 +33,7 @@
              <br/>
         </div>
         <div>
+            <hr />
             <h4>Logs guardados en la bitacora:</h4>
             <asp:GridView class="mGrid" ID="GridView1" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging" runat="server"></asp:GridView>
         </div>

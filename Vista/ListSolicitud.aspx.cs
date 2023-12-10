@@ -1,5 +1,6 @@
 ﻿using Controladores;
 using Modelos;
+using Servicios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,7 +37,20 @@ namespace Vista
             string sol = DropDownList1.SelectedValue.ToString();
             InterpretacionModel sM = new InterpretacionModel();
             sM = solicitud.listSolicitud().Where(x => x.Name == sol).ToList().FirstOrDefault();
-            solicitud.Approve(sM);
+            if (!sM.isApproved) solicitud.Approve(sM);
+            else GlobalMessage.MessageBox(this, "La solicitud ya se aprobo previamente");
+        }
+
+        protected void Listar(object sender, EventArgs e)
+        {
+            string sol = DropDownList1.SelectedValue.ToString();
+            InterpretacionModel sM = new InterpretacionModel();
+            sM = solicitud.listSolicitud().Where(x => x.Name == sol).ToList().FirstOrDefault();
+
+            Label2.Text = $"Nombre: {sM.Name}";
+            Label3.Text = $"Descripcion: {sM.Description}";
+            if(sM.isApproved) Label1.Text = $"Esta aprobada?: Si.";
+            else Label1.Text = $"Esta aprobada?: No.";
         }
     }
 }

@@ -3,35 +3,30 @@
 1. Menu de Restore/Recalcular hay que agregar las otras tablas y ver porque rompe todo.
 	1 Bis. Al 1 hay que agregarle lo de los digitos verificadores de los demas
 
+2. Titulo de la pagina es H2, y los demas titulos son H3. El H2 hay que centrarlo
+
 # Pulir detalles
+1. Todavia se sigue bugeando el select al clickear en la lista. No funciona bien en ningun menu eso.
+
 2. Agregar los puntos B, C y D de la bitacora. (26 en la hoja del profe).
 
 3. Crea una famila nueva, le agrega 1 SOLO PERMISO, despues si hces algo mas se rompe a la mierda
 
-4. Los controles custom no existen
+4. Hacer bien las compras. no se guarda en la DB la compra.
 
-// CARPETA
-6. Imprimir xd
-
-
-500 weapon_knife (Bayonet)
-503 weapon_knife (Classic Knife)
-505 weapon_knife (Flip Knife)
-506 weapon_knife (Gut Knife)
-507 weapon_knife (Karambit)
-508 weapon_knife (M9 Bayonet)
-509 weapon_knife (Huntsman Knife)
-512 weapon_knife (Falchion Knife)
-514 weapon_knife (Bowie Knife)
-515 weapon_knife (Butterfly Knife)
-516 weapon_knife (Shadow Daggers)
-517 weapon_knife (Paracord Knife)
-518 weapon_knife (Survival Knife)
-519 weapon_knife (Ursus Knife)
-520 weapon_knife (Navaja Knife)
-521 weapon_knife (Nomad Knife)
-522 weapon_knife (Stiletto Knife)
-523 weapon_knife (Talon Knife)
-524 weapon_knife (Default knife)
-525 weapon_knife (Skeleton Knife)
-526 weapon_knife
+5. Corregir todos los menues visualmente.
+A. Backup y restore
+B. Bitacora
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.

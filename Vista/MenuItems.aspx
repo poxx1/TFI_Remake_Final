@@ -3,8 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <div>
-            <h2>Menu de compras</h2>
-            Desde este menu podra agregar sus items al carrito, y luego en el mismo, finalizar la compra.<br /><hr>
+            <h3>Menu de compras</h3>
             Lista de cursos<br />
             <asp:ListBox ID="ListBox1" runat="server" Height="126px" Width="655px" AutoPostBack="false" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged"></asp:ListBox>
             <br />        <hr>

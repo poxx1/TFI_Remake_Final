@@ -3,16 +3,13 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Salidas XML"></asp:Label>
-            <br />
-            <br />
-            Seleccione desde la botonera, que quiere exportar. En la grilla visualizara los datos exportados como XML.<br />
+            <h3>Exportar a XML</h3><hr />
             <asp:GridView ID="GridView1" runat="server" Height="212px" Width="748px">
             </asp:GridView>
-            <br />
+            <hr />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Pendientes" />
-&nbsp;<asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Aprobadas" />
-&nbsp;<asp:Button ID="Button3" runat="server" Text="Totales" OnClick="Button3_Click" />
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Aprobadas" />
+            <asp:Button ID="Button3" runat="server" Text="Totales" OnClick="Button3_Click" />
         </div>
     </main>
 </asp:Content>

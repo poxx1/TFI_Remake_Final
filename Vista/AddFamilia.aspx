@@ -1,10 +1,8 @@
 ﻿<%@ Page Title="AddFamilia" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddFamilia.aspx.cs" Inherits="Vista.AddFamilia" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <p>
-        En este menu podra agregar una nueva familia para despues poder asignarle permisos</p>
-    <p>
-        Nombre de la familia:</p>
+<h3>Editar familia</h3><hr />
+        Nombre de la familia
     <p>
         <asp:TextBox ID="TextBox1" runat="server" Width="219px"></asp:TextBox>
     </p>

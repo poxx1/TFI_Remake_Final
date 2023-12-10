@@ -3,9 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Editar usuario"></asp:Label>
-             <br />
-            <br />
+            <h3>Editar usuario</h3><hr />
             Elegir el usuario a editar<br />
             <asp:ListBox ID="ListBox1" runat="server" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged"></asp:ListBox>
                 <br />
@@ -26,10 +24,8 @@
             <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox><br />
             <asp:Label ID="Label9" runat="server" Text="Direccion"></asp:Label><br />
             <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox><br><br />
-
+             <hr />
             <asp:Button ID="Button1" runat="server" Text="Editar usuario" OnClick="Button1_Click" />
-                    <br />
-                    <br />
             <asp:Button ID="Button2" runat="server" Text="Desbloquear usuario" OnClick="Button2_Click" />
         </div>
         </div>

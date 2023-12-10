@@ -4,10 +4,12 @@
         <link href="/Style/DataGrid.css" rel="stylesheet" />
     <main aria-labelledby="title">
         <div>
+            <h3>Listar usuarios</h3><hr />
             <asp:Button ID="Button1" runat="server" Text="Listar usuarios" OnClick="Button1_Click"/>
             <br><br/>
         </div>
         <div>
+            <hr />
             <h4>Detalles de los usuarios:</h4>
             <br>
             <asp:GridView class="mGrid" ID="GridView1" autogeneratecolumns="false" runat="server" OnRowDataBound="GridView1_RowDataBound">

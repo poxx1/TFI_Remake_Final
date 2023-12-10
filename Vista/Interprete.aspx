@@ -2,16 +2,14 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <a>En esta pagina podras encontrar a nuestro interprete interactivo, al cual podras describirle palabras</a>
-        <a>y el mismo te mostrara como interpretarlas bajo el lenguaje de señas</a><br />
-        <br />
+        <h2>Interprete virtual</h2>
+       <hr />
         <div>
             <a>Ingrese la palabra a interpretar</a><br>
             <input id="Text1" type="text" /><br><br>
-            <input id="Button2" type="button" onclick="onButtonClick()" value="Interpretar" />
+            <input id="Button2" type="button" onclick="onButtonClick()" value="Interpretar" /><hr />
         </div>
-        <br />
-        <video id="video" width="320" height="240" autoplay>
+        <video id="video" width="640" height="480" autoplay>
             <source id="VideoPlayer" type="video/mp4">
             Your browser does not support the video tag.
         </video>

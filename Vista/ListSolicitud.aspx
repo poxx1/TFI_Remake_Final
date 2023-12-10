@@ -3,13 +3,17 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <div>
-            <asp:Label ID="Label2" runat="server" Text="Lista de solicitudes pendientes"></asp:Label>
-            <br />
+            <h3>Listar solicitudes</h3><hr />
+            Lista de solicitudes pendientes:<br />
             <asp:DropDownList ID="DropDownList1" runat="server" Height="40px" Width="220px">
             </asp:DropDownList>
-            <br />
-            <br />
-            <asp:Button ID="Button1" runat="server" Text="Aprobar solicitud" Width="207px" OnClick="Approve"/>
+            <hr />
+            <asp:Label ID="Label2" runat="server" Text="Nombre"></asp:Label><br />
+            <asp:Label ID="Label3" runat="server" Text="Descripcion"></asp:Label><br />
+            <asp:Label ID="Label1" runat="server" Text="Estado de aprobacion"></asp:Label><br />
+            <hr />
+            <asp:Button ID="Button2" runat="server" Text="Seleccionar solicitud" OnClick="Listar"/>
+            <asp:Button ID="Button1" runat="server" Text="Aprobar solicitud" OnClick="Approve"/>
         </div>
     </main>
 </asp:Content>
