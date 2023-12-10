@@ -4,9 +4,8 @@
     <main aria-labelledby="title">
         <div>
             <h3>Editar usuario</h3><hr />
-            Elegir el usuario a editar<br />
-            <asp:ListBox ID="ListBox1" runat="server" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged"></asp:ListBox>
-                <br />
+            Elija el usuario a editar<br />
+            <asp:ListBox ID="ListBox1" runat="server" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged" Width="250px"></asp:ListBox><hr />
                 <div>
             <asp:Label ID="Label2" runat="server" Text="Dni"></asp:Label><br />
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
@@ -25,6 +24,7 @@
             <asp:Label ID="Label9" runat="server" Text="Direccion"></asp:Label><br />
             <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox><br><br />
              <hr />
+            <asp:Button ID="Button3" runat="server" Text="Seleccionar usuario" OnClick="Button2_Click" />
             <asp:Button ID="Button1" runat="server" Text="Editar usuario" OnClick="Button1_Click" />
             <asp:Button ID="Button2" runat="server" Text="Desbloquear usuario" OnClick="Button2_Click" />
         </div>

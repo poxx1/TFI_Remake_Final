@@ -11,9 +11,8 @@
             <hr />
             <asp:Label ID="Label2" runat="server" Text="Precio total: 0"></asp:Label>
             <hr />
-            <asp:Button ID="Button1" runat="server" Text="Quitar item seleccionado" Width="197px" OnClick="Button1_Click" />
-
-            <asp:Button ID="Button2" runat="server" Text="Realizar compra" Width="140px" OnClick="Button2_Click" />
+            <asp:Button ID="Button1" runat="server" Text="Quitar item seleccionado" Width="240px" OnClick="Button1_Click" />
+            <asp:Button ID="Button2" runat="server" Text="Realizar compra" OnClick="Button2_Click" />
             <br />
         </div>
     </main>

@@ -6,7 +6,6 @@
         <div>
             <h3>Listar usuarios</h3><hr />
             <asp:Button ID="Button1" runat="server" Text="Listar usuarios" OnClick="Button1_Click"/>
-            <br><br/>
         </div>
         <div>
             <hr />

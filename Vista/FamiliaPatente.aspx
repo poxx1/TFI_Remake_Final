@@ -5,9 +5,7 @@
     <main aria-labelledby="title">
         <div>
             <h3>Editar familia - patente</h3>
-            <asp:Button ID="Button1" runat="server" Text="Listar permisos" OnClick="Button1_Click" />
-            <br />
-            <br />
+            <asp:Button ID="Button1" runat="server" Text="Listar permisos" OnClick="Button1_Click" /><hr />
             <h4>Permisos de los usuarios:</h4>
             <br />
             <a>Seleccione </a>los elementos de las listas correspondientes

@@ -16,7 +16,7 @@
             Descripcion:
             <asp:Label ID="Label2" runat="server" Text="descripcion del curso"></asp:Label>
             <br />        <hr>
-            <asp:Button ID="Button1" runat="server" Text="Agregar al carrito" Width="140px" OnClick="Button1_Click" />
+            <asp:Button ID="Button1" runat="server" Text="Agregar al carrito" OnClick="Button1_Click" />
             <asp:Button ID="Button2" runat="server" Text="Ir al carrito" OnClick="Button2_Click" Width="141px" />
             <br />
         </div>

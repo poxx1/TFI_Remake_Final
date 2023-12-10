@@ -12,7 +12,7 @@
             <asp:Label ID="Label3" runat="server" Text="Descripcion"></asp:Label><br />
             <asp:Label ID="Label1" runat="server" Text="Estado de aprobacion"></asp:Label><br />
             <hr />
-            <asp:Button ID="Button2" runat="server" Text="Seleccionar solicitud" OnClick="Listar"/>
+            <asp:Button ID="Button2" runat="server" Text="Seleccionar solicitud" Width="240px" OnClick="Listar"/>
             <asp:Button ID="Button1" runat="server" Text="Aprobar solicitud" OnClick="Approve"/>
         </div>
     </main>
