@@ -21,5 +21,9 @@
             <asp:Button ID="Button2" runat="server" Text="Ir al carrito" OnClick="Button2_Click" Width="141px" />
             <br />
         </div>
+            <div>            <hr />
+        Carrito de compras<br />
+         <asp:ListBox ID="ListBox2" runat="server" Height="126px" Width="639px"></asp:ListBox>
+    </div>
     </main>
 </asp:Content>

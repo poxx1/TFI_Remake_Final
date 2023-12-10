@@ -9,7 +9,7 @@
             Lista de cursos<br />
             <asp:ListBox ID="ListBox1" runat="server" Height="126px" Width="639px"></asp:ListBox>
             <hr />
-            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Text="Precio total: 0"></asp:Label>
             <hr />
             <asp:Button ID="Button1" runat="server" Text="Quitar item seleccionado" Width="197px" OnClick="Button1_Click" />
 

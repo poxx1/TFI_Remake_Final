@@ -12,4 +12,5 @@
     <asp:TextBox ID="TextBox3" runat="server" OnTextChanged="TextBox3_TextChanged"></asp:TextBox><hr/>
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Agregar curso" /><hr />
     Nota. Los precios de los cursos son en $ARS.
+
 </asp:Content>

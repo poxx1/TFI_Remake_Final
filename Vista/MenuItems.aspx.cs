@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Vista
@@ -16,6 +17,7 @@ namespace Vista
     {
         CursosService cs = new CursosService();
         public static List<string> items;
+        List<string> cursos = new List<string>();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -39,6 +41,19 @@ namespace Vista
                 //Listar cursos
                 ListBox1.DataSource = listCursos;
                 ListBox1.DataBind();
+                
+                if (Session["carrito"] != null)
+                {
+                    List<string> lista = (List<string>)Session["carrito"];
+
+                    foreach (object item in lista)
+                    {
+                        var cursoActual = listarCursos().Where(x => x.Name.Contains(item.ToString())).ToList().First();
+                        cursos.Add(ListBox1.SelectedValue.ToString());
+                    }
+                    ListBox2.DataSource = lista;
+                    ListBox2.DataBind();
+                }
             }
         }
 
@@ -65,7 +80,6 @@ namespace Vista
             if(items!=null)
                 items.Add(ListBox1.SelectedValue.ToString());
 
-
             BitacoraService bitacoraService = new BitacoraService();
             UserModel user = new UserModel();
             bitacoraService.LogData("Login", $"El usuario {user.Name} agrego un item al carrito.", "Media");
@@ -77,7 +91,18 @@ namespace Vista
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            
+            if (Session["carrito"] != null)
+            {
+                List<string> lista = (List<string>)Session["carrito"];
+
+                foreach (object item in lista)
+                {
+                    var cursoActual = listarCursos().Where(x => x.Name.Contains(item.ToString())).ToList().First();
+                    cursos.Add(ListBox1.SelectedValue.ToString());
+                }
+                ListBox2.DataSource = lista;
+                ListBox2.DataBind();
+            }
         }
     }
 }
