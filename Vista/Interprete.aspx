@@ -5,9 +5,11 @@
         <a>En esta pagina podras encontrar a nuestro interprete interactivo, al cual podras describirle palabras</a>
         <a>y el mismo te mostrara como interpretarlas bajo el lenguaje de señas</a><br />
         <br />
-
-        <input id="Text1" type="text" />
-        <input id="Button2" type="button" onclick="onButtonClick()" value="Interpretar" />
+        <div>
+            <a>Ingrese la palabra a interpretar</a><br>
+            <input id="Text1" type="text" /><br><br>
+            <input id="Button2" type="button" onclick="onButtonClick()" value="Interpretar" />
+        </div>
         <br />
         <video id="video" width="320" height="240" autoplay>
             <source id="VideoPlayer" type="video/mp4">

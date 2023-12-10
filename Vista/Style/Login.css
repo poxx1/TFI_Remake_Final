@@ -36,8 +36,12 @@ body {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 35px;
     color: goldenrod;
     text-transform: uppercase;
     text-align: center;
+    border-color: darkgoldenrod;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
 }

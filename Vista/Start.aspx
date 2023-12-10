@@ -12,11 +12,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h2>Login</h2>
+            <h2>Login</h2><br />
                 <asp:Label ID="Label1" runat="server" Text=" Usuario"></asp:Label><br/>
-                <asp:TextBox class="customTextbox" ID="TextBox1" runat="server"></asp:TextBox><br/>
+                <asp:TextBox class="customTextbox" ID="TextBox1" runat="server"></asp:TextBox><br/><br/>
                 <asp:Label ID="Label2" runat="server" Text=" Contraseña"></asp:Label><br/>
                 <asp:TextBox class="customTextbox" ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox><br/><br/>
+            <hr />
             <asp:Button class="customButton" ID="Button1" runat="server" OnClick="Button1_Click" Text="Login" />
         </div>
     </form>

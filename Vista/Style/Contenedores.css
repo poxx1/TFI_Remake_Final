@@ -1,0 +1,6 @@
+﻿hr, select {
+    border-color: darkgoldenrod;
+    border-style: ridge;
+    border-width: 3px;
+    border-radius: 5px;
+}

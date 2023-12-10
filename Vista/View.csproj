@@ -147,7 +147,9 @@
     <Content Include="Global.asax" />
     <Content Include="MenuAgregarItems.aspx" />
     <Content Include="MenuCarrito.aspx" />
+    <Content Include="MenuCompras.aspx" />
     <Content Include="MenuItems.aspx" />
+    <Content Include="MenuTraductor.aspx" />
     <Content Include="salidasXML.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -206,6 +208,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="Start.aspx" />
+    <Content Include="Style\Contenedores.css" />
     <Content Include="Style\DataGrid.css" />
     <Content Include="Style\Login.css" />
     <Content Include="Style\Master.css" />
@@ -384,12 +387,26 @@
     <Compile Include="MenuCarrito.aspx.designer.cs">
       <DependentUpon>MenuCarrito.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MenuCompras.aspx.cs">
+      <DependentUpon>MenuCompras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuCompras.aspx.designer.cs">
+      <DependentUpon>MenuCompras.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MenuItems.aspx.cs">
       <DependentUpon>MenuItems.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MenuItems.aspx.designer.cs">
       <DependentUpon>MenuItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuTraductor.aspx.cs">
+      <DependentUpon>MenuTraductor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuTraductor.aspx.designer.cs">
+      <DependentUpon>MenuTraductor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="salidasXML.aspx.cs">

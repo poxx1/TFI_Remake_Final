@@ -12,3 +12,26 @@
 
 // CARPETA
 6. Imprimir xd
+
+
+500 weapon_knife (Bayonet)
+503 weapon_knife (Classic Knife)
+505 weapon_knife (Flip Knife)
+506 weapon_knife (Gut Knife)
+507 weapon_knife (Karambit)
+508 weapon_knife (M9 Bayonet)
+509 weapon_knife (Huntsman Knife)
+512 weapon_knife (Falchion Knife)
+514 weapon_knife (Bowie Knife)
+515 weapon_knife (Butterfly Knife)
+516 weapon_knife (Shadow Daggers)
+517 weapon_knife (Paracord Knife)
+518 weapon_knife (Survival Knife)
+519 weapon_knife (Ursus Knife)
+520 weapon_knife (Navaja Knife)
+521 weapon_knife (Nomad Knife)
+522 weapon_knife (Stiletto Knife)
+523 weapon_knife (Talon Knife)
+524 weapon_knife (Default knife)
+525 weapon_knife (Skeleton Knife)
+526 weapon_knife

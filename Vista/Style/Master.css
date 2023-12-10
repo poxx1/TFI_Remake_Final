@@ -21,6 +21,7 @@ input {
     font-size: 16px;
     font-family: 'bahnschrift';
     text-align: center;
+    background-color: rgb(30 24 15);
 }
 
 [type="submit"] {
