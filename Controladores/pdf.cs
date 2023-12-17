@@ -39,7 +39,7 @@ namespace Controladores
             cell1.BorderColor = new iTextSharp.text.BaseColor(218, 165, 32);
             cell1.BackgroundColor = new iTextSharp.text.BaseColor(152, 115, 22);
 
-            cell2 = new PdfPCell(new Phrase("\n | SayIT | Comprobante - Consumidor Final\n\r", new Font(Font.FontFamily.HELVETICA, 20, Font.BOLD)));
+            cell2 = new PdfPCell(new Phrase("\n | SayIT | Comprobante - Consumidor Final\n\r", new Font(Font.FontFamily.UNDEFINED, 20, Font.BOLD)));
 
             cell2.HorizontalAlignment = Element.ALIGN_CENTER;
             //cell2.VerticalAlignment = Element.ALIGN_JUSTIFIED_ALL;
@@ -48,7 +48,7 @@ namespace Controladores
             cell2.BorderWidth = 2;
             cell2.BackgroundColor = new iTextSharp.text.BaseColor(152, 115, 22);
             table.AddCell(cell2);
-            cell1 = new PdfPCell(new Phrase($"Fecha de la factura: {DateTime.Now.ToString("dd/MM/yy hh:mm:ss")} \n", new Font(Font.FontFamily.TIMES_ROMAN, 14)));
+            cell1 = new PdfPCell(new Phrase($"Fecha de la factura: {DateTime.Now.ToString("dd/MM/yy hh:mm:ss")} \n", new Font(Font.FontFamily.TIMES_ROMAN, 14, Font.BOLD)));
             cell1.HorizontalAlignment = Element.ALIGN_LEFT;
             //cell1.VerticalAlignment = Element.ALIGN_JUSTIFIED_ALL;
             cell1.Colspan = 2;

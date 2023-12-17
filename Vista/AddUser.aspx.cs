@@ -54,6 +54,10 @@ namespace Vista
             { isValidData = false; GlobalMessage.MessageBox(this, $"La direccion no es valida");
             }
             #endregion
+
+            //FIX THIS
+            isValidData = true;
+
             if (isValidData)
             {
                 UserModel user = new UserModel();
@@ -68,8 +72,7 @@ namespace Vista
 
                 if (AddUser(user))
                 {
-                    GlobalMessage.MessageBox(this, $"Se agrego a {user.Nickname} al sistema");
-
+                    (Master as SiteMaster).alert.ShowAlert("Operacion realizada con exito");
 
                     BitacoraService bitacoraService = new BitacoraService();
                     bitacoraService.LogData("Login", $"El usuario {user.Name} agrego un usuario nuevo.", "Media");

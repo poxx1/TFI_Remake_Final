@@ -6,11 +6,16 @@ using System.Collections.Generic;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Vista.Customs;
 
 namespace Vista
 {
     public partial class SiteMaster : MasterPage
     {
+        public Alert alert
+        {
+            get { return privatealert; }
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             #region Espaniol

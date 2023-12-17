@@ -12,6 +12,7 @@ using Controladores;
 using Model;
 using Modelos;
 using Servicios;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Vista
@@ -35,6 +36,8 @@ namespace Vista
             BitacoraService bitacoraService = new BitacoraService();
             UserModel user = new UserModel();
             bitacoraService.LogData("Login", $"El usuario {user.Name} listo el XML.", "Media");
+
+
             GlobalMessage.MessageBox(this, $"Se listo el XML");
         }
         protected void Button2_Click(object sender, EventArgs e)
@@ -46,8 +49,8 @@ namespace Vista
             BitacoraService bitacoraService = new BitacoraService();
             UserModel user = new UserModel();
             bitacoraService.LogData("Login", $"El usuario {user.Name} listo el XML.", "Media");
-            GlobalMessage.MessageBox(this, $"Se listo el XML");
-
+            //GlobalMessage.MessageBox(this, $"Se listo el XML","success");
+            ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "swal('Titulo?','Body?'," + "success" + ")",true);
         }
         protected void Button3_Click(object sender, EventArgs e)
         {

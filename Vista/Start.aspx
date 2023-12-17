@@ -12,7 +12,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h2>Login</h2><br />
+            <h2>Say-It</h2><hr /><br />
                 <asp:Label ID="Label1" runat="server" Text=" Usuario"></asp:Label><br/>
                 <asp:TextBox class="customTextbox" ID="TextBox1" runat="server"></asp:TextBox><br/><br/>
                 <asp:Label ID="Label2" runat="server" Text=" Contraseña"></asp:Label><br/>

@@ -17,7 +17,7 @@ namespace Servicios
             }
             else
             {
-                cs.DataSource = System.Environment.MachineName + @"\SQLEXPRESS01";
+                cs.DataSource = System.Environment.MachineName + @"\SQLEXPRESS";
                 //En cualquier otra pc usar = "\SQLEXPRESS", tengo 2 sql por eso el 01
             }
 

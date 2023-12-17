@@ -13,5 +13,9 @@ namespace Servicios
         {
             ScriptManager.RegisterClientScriptBlock(page, page.GetType(), "alertMessage", "alert('" + strMsg + "')", true);
         }
+        public static void MessageBox(System.Web.UI.Page page, string mensaje, string tipo)
+        {
+            page.ClientScript.RegisterClientScriptBlock(page.GetType(), "alert", "swall('Titulo?','Body?'," + tipo + ")",true);
+        }
     }
 }

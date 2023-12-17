@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-            <h3>Menu de Compras</h3>
+            <h2>Menu de Compras</h2>
         <hr>
         <div><h3>Seccion de los cursos</h3>
             <asp:Button ID="Button1" runat="server" Text="Agregar curso" OnClick="Button1_Click" />

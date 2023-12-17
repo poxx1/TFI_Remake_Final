@@ -1,4 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Vista.SiteMaster" %>
+<%@ Register Src="~/Customs/Alert.ascx" TagPrefix="Custom" TagName="Alert" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
@@ -12,6 +14,7 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <Custom:Alert id="privatealert" runat="server" />
 </head>
 <body>
     <form runat="server">

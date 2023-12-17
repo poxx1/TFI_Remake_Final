@@ -30,3 +30,12 @@ L.
 M.
 N.
 O.
+
+Falta
+
+1. Eliminar curso
+2. Listar cursos
+3. Modificar traduccion
+4. Elminar traduccion
+5. Crear familia
+
