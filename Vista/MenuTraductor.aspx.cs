@@ -29,7 +29,7 @@ namespace Vista
         protected void Button3_Click(object sender, EventArgs e)
         {
             //Update
-            HttpContext.Current.Response.Redirect("EditSolicitud.aspx");
+            HttpContext.Current.Response.Redirect("EditTraduccion.aspx");
         }
 
         protected void Button4_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace Vista
         protected void Button5_Click(object sender, EventArgs e)
         {
             //Delete
-            HttpContext.Current.Response.Redirect("DeleteSolicitud.aspx");
+            HttpContext.Current.Response.Redirect("DeleteTraduccion.aspx");
         }
     }
 }

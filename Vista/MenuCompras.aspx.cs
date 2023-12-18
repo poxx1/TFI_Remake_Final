@@ -35,7 +35,7 @@ namespace Vista
         protected void Button4_Click(object sender, EventArgs e)
         {
             //Delete
-            HttpContext.Current.Response.Redirect("DeleteCursos.aspx");
+            HttpContext.Current.Response.Redirect("DeleteCurso.aspx");
         }
 
         protected void Button5_Click(object sender, EventArgs e)

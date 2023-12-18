@@ -1,15 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ListCursos.aspx.cs" Inherits="Vista.ListCursos" %>
-<%-- Aca todavia falta cambiar el template de arriba para que tome el master--%>  
-<!DOCTYPE html>
+﻿<%@ Page Title="ListCursos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ListCursos.aspx.cs" Inherits="Vista.ListCursos" %>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <main aria-labelledby="title">
         <div>
+            <asp:Label ID="Label1" runat="server" Text="Template para reutilizar"></asp:Label>
         </div>
-    </form>
-</body>
-</html>
+    </main>
+</asp:Content>

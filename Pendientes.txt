@@ -3,8 +3,6 @@
 1. Menu de Restore/Recalcular hay que agregar las otras tablas y ver porque rompe todo.
 	1 Bis. Al 1 hay que agregarle lo de los digitos verificadores de los demas
 
-2. Titulo de la pagina es H2, y los demas titulos son H3. El H2 hay que centrarlo
-
 # Pulir detalles
 1. Todavia se sigue bugeando el select al clickear en la lista. No funciona bien en ningun menu eso.
 

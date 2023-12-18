@@ -49,5 +49,10 @@ namespace Vista
             //Delete
             HttpContext.Current.Response.Redirect("DeleteUser.aspx");
         }
+
+        protected void Button7_Click(object sender, EventArgs e)
+        {
+            HttpContext.Current.Response.Redirect("AddFamilia.aspx");
+        }
     }
 }
