@@ -1,0 +1,16 @@
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Interfaces\bin\Debug\Interfaces.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Interfaces\bin\Debug\Interfaces.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Interfaces\bin\Debug\FastMember.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Interfaces\obj\Debug\Interfaces.csproj.CopyComplete
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Interfaces\obj\Debug\Interfaces.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Interfaces\obj\Debug\Interfaces.pdb
+C:\Entrega final\Entrega_Final\Interfaces\bin\Debug\Interfaces.dll
+C:\Entrega final\Entrega_Final\Interfaces\bin\Debug\Interfaces.pdb
+C:\Entrega final\Entrega_Final\Interfaces\bin\Debug\FastMember.dll
+C:\Entrega final\Entrega_Final\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Entrega final\Entrega_Final\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Entrega final\Entrega_Final\Interfaces\obj\Debug\Interfaces.csproj.CopyComplete
+C:\Entrega final\Entrega_Final\Interfaces\obj\Debug\Interfaces.dll
+C:\Entrega final\Entrega_Final\Interfaces\obj\Debug\Interfaces.pdb

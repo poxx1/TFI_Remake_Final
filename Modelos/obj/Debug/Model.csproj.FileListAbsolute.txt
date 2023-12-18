@@ -1,0 +1,20 @@
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Modelos\bin\Debug\Modelos.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Modelos\bin\Debug\Modelos.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Modelos\bin\Debug\FastMember.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Modelos\bin\Debug\Interfaces.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Modelos\bin\Debug\Interfaces.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Modelos\obj\Debug\Model.csproj.AssemblyReference.cache
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Modelos\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Modelos\obj\Debug\Model.csproj.CopyComplete
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Modelos\obj\Debug\Modelos.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Modelos\obj\Debug\Modelos.pdb
+C:\Entrega final\Entrega_Final\Modelos\bin\Debug\Modelos.dll
+C:\Entrega final\Entrega_Final\Modelos\bin\Debug\Modelos.pdb
+C:\Entrega final\Entrega_Final\Modelos\bin\Debug\FastMember.dll
+C:\Entrega final\Entrega_Final\Modelos\bin\Debug\Interfaces.dll
+C:\Entrega final\Entrega_Final\Modelos\bin\Debug\Interfaces.pdb
+C:\Entrega final\Entrega_Final\Modelos\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Entrega final\Entrega_Final\Modelos\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Entrega final\Entrega_Final\Modelos\obj\Debug\Model.csproj.CopyComplete
+C:\Entrega final\Entrega_Final\Modelos\obj\Debug\Modelos.dll
+C:\Entrega final\Entrega_Final\Modelos\obj\Debug\Modelos.pdb

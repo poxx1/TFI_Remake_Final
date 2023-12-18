@@ -19,14 +19,19 @@ namespace Controladores
             return repository.listSolicitudes();
         }
 
-        public bool deleteSolicitud()
+        public bool deleteSolicitud(InterpretacionModel value)
         {
-            return false;
+            return repository.deleteSolicitud(value);
         }
 
         public bool Approve(InterpretacionModel value)
         {
             return repository.Approve(value);
+        }
+
+        public bool UpdateSolicitud(InterpretacionModel value)
+        {
+            return repository.Update(value);
         }
     }
 }

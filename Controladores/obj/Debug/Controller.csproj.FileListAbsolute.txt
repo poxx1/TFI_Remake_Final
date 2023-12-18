@@ -1,0 +1,64 @@
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Controladores.dll.config
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Controladores.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Controladores.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\AccesoDatos.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\API.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\BouncyCastle.Crypto.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\DigitosVerificadoresLib.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\FastMember.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\itextsharp.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Modelos.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Servicios.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Spire.Pdf.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Interfaces.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Microsoft.mshtml.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\AccesoDatos.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\API.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\API.dll.config
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\DigitosVerificadoresLib.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Modelos.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Servicios.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\itextsharp.xml
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Spire.Pdf.xml
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\bin\Debug\Interfaces.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\obj\Debug\Controller.csproj.AssemblyReference.cache
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\obj\Debug\Controller.csproj.CopyComplete
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\obj\Debug\Controladores.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Controladores\obj\Debug\Controladores.pdb
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Controladores.dll.config
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Controladores.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Controladores.pdb
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\AccesoDatos.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\API.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\BouncyCastle.Crypto.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\DigitosVerificadoresLib.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\FastMember.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\itextsharp.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Modelos.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Servicios.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Spire.Pdf.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Interfaces.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Microsoft.mshtml.dll
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\AccesoDatos.pdb
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\API.pdb
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\API.dll.config
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\DigitosVerificadoresLib.pdb
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Modelos.pdb
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Servicios.pdb
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\itextsharp.xml
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Spire.Pdf.xml
+C:\Entrega final\Entrega_Final\Controladores\bin\Debug\Interfaces.pdb
+C:\Entrega final\Entrega_Final\Controladores\obj\Debug\Controller.csproj.AssemblyReference.cache
+C:\Entrega final\Entrega_Final\Controladores\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+C:\Entrega final\Entrega_Final\Controladores\obj\Debug\Controller.csproj.CopyComplete
+C:\Entrega final\Entrega_Final\Controladores\obj\Debug\Controladores.dll
+C:\Entrega final\Entrega_Final\Controladores\obj\Debug\Controladores.pdb

@@ -1,0 +1,205 @@
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.pdb
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\EnvDTE.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\stdole.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\EnvDTE.xml
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.AssemblyReference.cache
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CoreCompileInputs.cache
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CopyComplete
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.dll
+C:\Users\juanc\Desktop\campo 2022\solucion\campo\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.pdb
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.pdb
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\EnvDTE.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\stdole.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\EnvDTE.xml
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.AssemblyReference.cache
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CoreCompileInputs.cache
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CopyComplete
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.dll
+C:\Users\juanc\Desktop\TFI -2023\TFI2023\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.pdb
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.pdb
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\EnvDTE.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\stdole.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TFI2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.AssemblyReference.cache
+C:\TFI2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CoreCompileInputs.cache
+C:\TFI2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CopyComplete
+C:\TFI2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.dll
+C:\TFI2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\bin\Debug\EnvDTE.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\bin\Debug\stdole.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.AssemblyReference.cache
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CoreCompileInputs.cache
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CopyComplete
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.pdb
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.dll
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.pdb
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\EnvDTE.dll
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\stdole.dll
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.AssemblyReference.cache
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CoreCompileInputs.cache
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CopyComplete
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.dll
+C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.pdb

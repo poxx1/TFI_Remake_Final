@@ -1,0 +1,24 @@
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\bin\Debug\Servicios.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\bin\Debug\Servicios.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\bin\Debug\FastMember.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\bin\Debug\Modelos.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\bin\Debug\Interfaces.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\bin\Debug\Modelos.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\bin\Debug\Interfaces.pdb
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\obj\Debug\Service.csproj.AssemblyReference.cache
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\obj\Debug\Service.csproj.CoreCompileInputs.cache
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\obj\Debug\Service.csproj.CopyComplete
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\obj\Debug\Servicios.dll
+E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Servicios\obj\Debug\Servicios.pdb
+C:\Entrega final\Entrega_Final\Servicios\bin\Debug\Servicios.dll
+C:\Entrega final\Entrega_Final\Servicios\bin\Debug\Servicios.pdb
+C:\Entrega final\Entrega_Final\Servicios\bin\Debug\FastMember.dll
+C:\Entrega final\Entrega_Final\Servicios\bin\Debug\Modelos.dll
+C:\Entrega final\Entrega_Final\Servicios\bin\Debug\Interfaces.dll
+C:\Entrega final\Entrega_Final\Servicios\bin\Debug\Modelos.pdb
+C:\Entrega final\Entrega_Final\Servicios\bin\Debug\Interfaces.pdb
+C:\Entrega final\Entrega_Final\Servicios\obj\Debug\Service.csproj.AssemblyReference.cache
+C:\Entrega final\Entrega_Final\Servicios\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Entrega final\Entrega_Final\Servicios\obj\Debug\Service.csproj.CopyComplete
+C:\Entrega final\Entrega_Final\Servicios\obj\Debug\Servicios.dll
+C:\Entrega final\Entrega_Final\Servicios\obj\Debug\Servicios.pdb
