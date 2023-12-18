@@ -13,14 +13,12 @@ namespace Vista
     {
         BackupService backup = new BackupService();
         string pathActual = string.Empty;
+        IntegrityService integrityService = new IntegrityService();
         protected void Page_Load(object sender, EventArgs e)
         {
-            IntegrityService integrityService = new IntegrityService();
+           
             var lista = integrityService.check();
-            foreach (string item in lista)
-            {
-                GlobalMessage.MessageBox(this,item);
-            }
+            errores.Text = lista.Aggregate("</br>", (a,b)=> a + "</br>" +b);
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
@@ -42,8 +40,7 @@ namespace Vista
             try
             {
                 //Recalcular digitos verificadores.
-                UserService us = new UserService();
-                us.reacalcDV();
+                integrityService.recalcDV();
                 GlobalMessage.MessageBox(this, "Se recalcularon los digitos verificadores");
                 HttpContext.Current.Response.Redirect("Default.aspx");
             }

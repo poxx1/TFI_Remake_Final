@@ -8,6 +8,8 @@
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Restaurar" Width="124px" /><hr />
             Opcion 2. Recalcular los digitos verificadores pisando los cambios aplicados a la base de datos.<br />
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Recalcular" Width="120px" />
+
+            <asp:Label ID="errores" runat="server" Text="Label"></asp:Label>
             <br />
         </div>
     </main>
