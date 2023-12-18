@@ -190,10 +190,6 @@ E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\obj\Debug\Dig
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CopyComplete
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.dll
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.pdb
-C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
 C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.dll
 C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.pdb
 C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\bin\Debug\EnvDTE.dll
