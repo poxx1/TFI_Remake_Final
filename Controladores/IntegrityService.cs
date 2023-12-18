@@ -1,6 +1,7 @@
 ﻿using Controladores;
 using DataAccess;
 using DigitosVerificadoresLib.interfaces;
+using Servicios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace Business
         public IntegrityService()
         {
             services.Add( new UserService());
+            services.Add(new CursosService());
         }
         public List<String> check()
         {
