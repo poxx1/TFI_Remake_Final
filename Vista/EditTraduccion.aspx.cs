@@ -11,8 +11,15 @@ namespace Vista
         SolicitudService ss = new SolicitudService();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) { 
-                ListBox1.DataSource = ss.listSolicitud(); ;
+            if (!IsPostBack) {
+
+                List<InterpretacionModel> lista = ss.listSolicitud();
+
+                List<string> strings = new List<string>();
+
+                foreach (InterpretacionModel model in lista) { strings.Add(model.ToString()); }
+
+                ListBox1.DataSource = "";
                 ListBox1.DataBind();
             }
         }
