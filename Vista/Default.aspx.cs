@@ -12,6 +12,12 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //(Master as SiteMaster).alert.ShowError("Error. La operacion ha fallado");
+            //(Master as SiteMaster).alert.ShowError("Error. No se pudieron validar los datos ingresados");
+            //(Master as SiteMaster).alert.ShowError("Error. Existe un campo igual al ingresado");
+            //(Master as SiteMaster).alert.ShowError("Error. Error en la consulta a la base de datos");
+            //(Master as SiteMaster).alert.ShowError("Error. El usuario no tiene los suficientes privilegios");
+
             if ((bool)Session["logged_in"] != true) HttpContext.Current.Response.Redirect("Start.aspx");
 
             UserModel user = new UserModel();

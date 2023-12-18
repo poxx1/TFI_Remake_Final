@@ -36,11 +36,11 @@ namespace Vista
             if (!Regex.IsMatch(TextBox3.Text, "^([a-zA-Z]+$)"))//Numbers only APELLIDO
             { isValidData = false; GlobalMessage.MessageBox(this, $"El Apellido no es valido");
             }
-            if (!Regex.IsMatch(TextBox3.Text, "^([a-zA-Z]+$)"))//Letters only NICK
+            if (!Regex.IsMatch(TextBox4.Text, "^([a-zA-Z]+$)"))//Letters only NICK
             { isValidData = false; GlobalMessage.MessageBox(this, $"El Nickname no es valido, solo letras");
             }
-            int count = TextBox4.Text.ToCharArray().Count();
-            if (count <= 7)//(!Regex.IsMatch(TextBox3.Text, "^(\\s*(\\S)\\s*){8,}\r\n"))//PASSWORD > 8
+            int count = TextBox5.Text.ToCharArray().Count();
+            if (count < 8)//(!Regex.IsMatch(TextBox3.Text, "^(\\s*(\\S)\\s*){8,}\r\n"))//PASSWORD > 8
             {
                 isValidData = false; GlobalMessage.MessageBox(this, $"La password no es valida, mayor a 8 caracteres");
             }
@@ -56,7 +56,7 @@ namespace Vista
             #endregion
 
             //FIX THIS
-            isValidData = true;
+            //isValidData = true;
 
             if (isValidData)
             {
@@ -78,10 +78,10 @@ namespace Vista
                     bitacoraService.LogData("Login", $"El usuario {user.Name} agrego un usuario nuevo.", "Media");
                 }
                 else
-                    GlobalMessage.MessageBox(this, $"No se pudo agregar a {user.Nickname} al sistema");
+                    (Master as SiteMaster).alert.ShowError("No se pudo agregar al usuario");
             }
             else
-                GlobalMessage.MessageBox(this, $"Ingreso un campo invalido. Por favor revisar.");
+                (Master as SiteMaster).alert.ShowAlert("Alguno de los campos que intento ingresar no es valido.");
         }
 
         public bool isValidEmail(string emailaddress)

@@ -11,7 +11,7 @@ namespace Servicios
     {
         public static void MessageBox(System.Web.UI.Page page, string strMsg)
         {
-            ScriptManager.RegisterClientScriptBlock(page, page.GetType(), "alertMessage", "alert('" + strMsg + "')", true);
+            //(Master as SiteMaster).alert.ShowError("Error. El usuario no tiene los suficientes privilegios");
         }
         public static void MessageBox(System.Web.UI.Page page, string mensaje, string tipo)
         {
