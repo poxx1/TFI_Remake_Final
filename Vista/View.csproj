@@ -116,11 +116,15 @@
     <Content Include="Customs\ValidateDNI.ascx" />
     <Content Include="Customs\ValidateEmail.ascx" />
     <Content Include="Customs\ValidatePassword.ascx" />
+    <Content Include="DeleteCurso.aspx" />
+    <Content Include="DeleteTraduccion.aspx" />
     <Content Include="DeleteUser.aspx" />
     <Content Include="EditarCursos.aspx" />
+    <Content Include="EditTraduccion.aspx" />
     <Content Include="EditUser.aspx" />
     <Content Include="FamiliaPatente.aspx" />
     <Content Include="Interprete.aspx" />
+    <Content Include="ListCursos.aspx" />
     <Content Include="ListSolicitud.aspx" />
     <Content Include="ListUser.aspx" />
     <Content Include="llamarWebService.aspx" />
@@ -302,6 +306,20 @@
     <Compile Include="Customs\ValidatePassword.ascx.designer.cs">
       <DependentUpon>ValidatePassword.ascx</DependentUpon>
     </Compile>
+    <Compile Include="DeleteCurso.aspx.cs">
+      <DependentUpon>DeleteCurso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteCurso.aspx.designer.cs">
+      <DependentUpon>DeleteCurso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteTraduccion.aspx.cs">
+      <DependentUpon>DeleteTraduccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteTraduccion.aspx.designer.cs">
+      <DependentUpon>DeleteTraduccion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DeleteUser.aspx.cs">
       <DependentUpon>DeleteUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -315,6 +333,13 @@
     </Compile>
     <Compile Include="EditarCursos.aspx.designer.cs">
       <DependentUpon>EditarCursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditTraduccion.aspx.cs">
+      <DependentUpon>EditTraduccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTraduccion.aspx.designer.cs">
+      <DependentUpon>EditTraduccion.aspx</DependentUpon>
     </Compile>
     <Compile Include="EditUser.aspx.cs">
       <DependentUpon>EditUser.aspx</DependentUpon>
@@ -336,6 +361,13 @@
     </Compile>
     <Compile Include="Interprete.aspx.designer.cs">
       <DependentUpon>Interprete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListCursos.aspx.cs">
+      <DependentUpon>ListCursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListCursos.aspx.designer.cs">
+      <DependentUpon>ListCursos.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListSolicitud.aspx.cs">
       <DependentUpon>ListSolicitud.aspx</DependentUpon>

@@ -12,30 +12,17 @@
 
 3. Crea una famila nueva, le agrega 1 SOLO PERMISO, despues si hces algo mas se rompe a la mierda
 
-4. Hacer bien las compras. no se guarda en la DB la compra.
+# Falta
 
-5. Corregir todos los menues visualmente.
-A. Backup y restore
-B. Bitacora
-C.
-D.
-E.
-F.
-G.
-H.
-I.
-J.
-K.
-L.
-M.
-N.
-O.
-
-Falta
-
-1. Eliminar curso
-2. Listar cursos
-3. Modificar traduccion
-4. Elminar traduccion
-5. Crear familia
-
+1. Eliminar curso > creado, falta modificar
+2. Listar cursos > creado, falta modificar
+3. Modificar traduccion > creado, falta modificar
+4. Elminar traduccion > creado, falta modificar
+5. Crear familia > creado, falta modificar
+6. La compra no guarda registro en la db
+7. Traduccion total del sitio
+8. DVH y DVV no estan implementados
+9. No se si valido todos los formualarios
+10. Familas no anda de seguro
+11. Patentes no anda de seguro
+12. Agregar los permisos bien a todas las paginas y hacer el enable/disable de los controles
