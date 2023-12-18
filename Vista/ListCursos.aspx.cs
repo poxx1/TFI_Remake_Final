@@ -1,9 +1,7 @@
-﻿using System;
+﻿using Modelos;
+using Servicios;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Vista
 {
@@ -11,7 +9,11 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            CursosService cs = new CursosService();
 
+            List<CursosModel> list = new List<CursosModel>();
+            GridView1.DataSource = cs.listCursos();
+            GridView1.DataBind();
         }
     }
 }

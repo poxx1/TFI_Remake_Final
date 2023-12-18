@@ -23,10 +23,16 @@ namespace Vista
                 PermissionsService ps = new PermissionsService();
                 Family f = new Family();
                 f.Nombre = TextBox1.Text;
+                f.Description = TextBox2.Text;
+                
+                //Hay que agregarle el componente default a esta familia porque sino rompe todo
+
+                //f.AddChild();
+
                 ps.SaveComponent(f, true);
-                GlobalMessage.MessageBox(this, "La familia se guardo correctamente");
+                (Master as SiteMaster).alert.ShowAlert("Operacion realizada con exito");
             }
-            catch { GlobalMessage.MessageBox(this, "Error guardando la familia"); }
+            catch { (Master as SiteMaster).alert.ShowError("No se pudo agregar a la familia"); }
         }
     }
 }

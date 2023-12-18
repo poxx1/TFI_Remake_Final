@@ -6,7 +6,12 @@
             <h3>Agregar nueva familia</h3>
             <hr />
             Nombre de la familia<br />
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br /><hr />
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            Descripcion de la familia<br />
+            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <br /><hr />
             <asp:Button ID="Button1" runat="server" Text="Agregar familia" onclick="Button1_Click"/>
         </div>
     </main>

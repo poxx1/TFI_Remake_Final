@@ -11,12 +11,11 @@
 3. Crea una famila nueva, le agrega 1 SOLO PERMISO, despues si hces algo mas se rompe a la mierda
 
 # Falta
-
 1. Eliminar curso > creado, falta modificar
 2. Listar cursos > creado, falta modificar
 3. Modificar traduccion > creado, falta modificar
 4. Elminar traduccion > creado, falta modificar
-5. Crear familia > creado, falta modificar
+5. Crear familia > creado, falta modificar // Necesito que agregue el permiso default o rompe.
 6. La compra no guarda registro en la db
 7. Traduccion total del sitio
 8. DVH y DVV no estan implementados
@@ -24,3 +23,4 @@
 10. Familas no anda de seguro
 11. Patentes no anda de seguro
 12. Agregar los permisos bien a todas las paginas y hacer el enable/disable de los controles
+13. A todos los menus hay que cambiarle el message box
