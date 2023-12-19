@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <div>
-            <h3>Lista de los cursos</h3>
+            <h3 id="title" runat="server">Lista de los cursos</h3>
             <asp:GridView ID="GridView1" runat="server">
             </asp:GridView>
         </div>

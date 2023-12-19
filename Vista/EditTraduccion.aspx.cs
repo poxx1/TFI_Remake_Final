@@ -11,6 +11,25 @@ namespace Vista
         SolicitudService ss = new SolicitudService();
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Editar solicitud";
+                Label2.Text = "Lista de traducciones";
+                Label1.Text = "Nombre";
+                Label3.Text = "Descripcion";
+                Button1.Text = "Seleccionar";
+                Button2.Text = "Editar";
+            }
+            else
+            {
+                title.InnerText = "Edit request";
+                Label2.Text = "List of requests";
+                Label1.Text = "Name";
+                Label3.Text = "Description";
+                Button1.Text = "Select";
+                Button2.Text = "Edit";
+            }
+
             if (!IsPostBack)
             {
 

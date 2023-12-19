@@ -15,7 +15,21 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Agregar una solicitud de traduccion";
+                Label2.Text = "Palabra a agregar";
+                Label3.Text = "Descripcion";
+                Button1.Text = "Realizar solicitud";
 
+            }
+            else
+            {
+                title.InnerText = "Request a translation";
+                Label2.Text = "Word to add";
+                Label3.Text = "Description";
+                Button1.Text = "Do the request";
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)

@@ -16,6 +16,23 @@ namespace Vista
         List<CursosModel> cursos = new List<CursosModel>();
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Carrito de compras";
+                title2.InnerText = "Lista de cursos";
+                Label2.Text = "Precio total: 0";
+                Button1.Text = "Quitar item seleccionado";
+                Button2.Text = "Realizar compra";
+            }
+            else
+            {
+                title.InnerText = "Shopping bag";
+                title2.InnerText = "Courses List";
+                Label2.Text = "Total price: 0";
+                Button1.Text = "Remove selected item";
+                Button2.Text = "Buy";
+            }
+
             if (!IsPostBack)
             {
                 if (Session["carrito"] != null)

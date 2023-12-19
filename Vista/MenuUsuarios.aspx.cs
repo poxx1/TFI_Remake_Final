@@ -11,6 +11,32 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Menu de usuarios";
+                title2.InnerText = "Seccion de usuarios";
+                title3.InnerText = "Seccion de permisos";
+                Button1.Text = "Agregar usuario";
+                Button2.Text = "Modificar usuarios";
+                Button3.Text = "Listar usuarios";
+                Button4.Text = "Eliminar usuario";
+                Button5.Text = "Familias";
+                Button6.Text = "Patentes";
+                Button7.Text = "Crear familias";
+            }
+            else
+            {
+                title.InnerText = "User menu";
+                title2.InnerText = "User section";
+                title3.InnerText = "Permision section";
+                Button1.Text = "Add user";
+                Button2.Text = "Edit user";
+                Button3.Text = "List user";
+                Button4.Text = "Delete user";
+                Button5.Text = "Families";
+                Button6.Text = "Patents";
+                Button7.Text = "Create families";
+            }
 
         }
 

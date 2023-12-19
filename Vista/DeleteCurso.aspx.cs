@@ -10,6 +10,24 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Eliminar cursos";
+                Label2.Text = "Seleccione un curso";
+                Label1.Text = "Curso seleccionado";
+                Button2.Text = "Seleccionar";
+                Button1.Text = "Eliminar";
+            }
+            else
+            {
+
+                title.InnerText = "Delete courses";
+                Label2.Text = "Select a course";
+                Label1.Text = "Selected course";
+                Button2.Text = "Select";
+                Button1.Text = "Delete";
+            }
+
             if (!IsPostBack)
             {
                 CursosService cs = new CursosService();

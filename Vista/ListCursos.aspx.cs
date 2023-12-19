@@ -9,6 +9,15 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Listar cursos";
+            }
+            else
+            {
+                title.InnerText = "List courses";
+            }
+
             CursosService cs = new CursosService();
 
             List<CursosModel> list = new List<CursosModel>();

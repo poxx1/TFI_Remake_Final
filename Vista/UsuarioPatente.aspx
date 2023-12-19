@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <div>
-            <h3>Permisos de los usuarios</h3><hr />
+            <h3 id="title" runat="server">Permisos de los usuarios</h3><hr />
             Seleccionar usuario:<br />
             <asp:DropDownList ID="DropDownList1" runat="server" Height="52px" Width="199px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
             </asp:DropDownList>

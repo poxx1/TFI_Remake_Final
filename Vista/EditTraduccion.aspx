@@ -2,17 +2,17 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-label-ledby="title">
         <div>
-            Modificar traduccion<br />
+            <h3 id="title" runat="server">Modificar traduccion</h3><br />
             <hr />
-            Lista de traducciones<br />
+            <asp:Label ID="Label2" runat="server" Text="Lista de traducciones"></asp:Label><br />
             <asp:ListBox ID="ListBox1" runat="server" Width="300px"></asp:ListBox>
             <br />
             <hr />
-            Nombre<br />
+            <asp:Label ID="Label1" runat="server" Text="Nombre"></asp:Label><br />
             <asp:TextBox ID="TextBox1" runat="server" Width="248px"></asp:TextBox>
             <br />
             <br />
-            Descripcion<br />
+            <asp:Label ID="Label3" runat="server" Text="Descripcion"></asp:Label><br />
             <asp:TextBox ID="TextBox2" runat="server" Width="248px"></asp:TextBox>
             <br />
             <hr />

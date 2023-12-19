@@ -22,6 +22,21 @@ namespace Vista
         salidaXML salida = new salidaXML();
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Salidas XML";
+                Button1.Text = "Pendientes";
+                Button2.Text = "Aprobadas";
+                Button3.Text = "Totales";
+            }
+            else
+            {
+                title.InnerText = "XML outputs";
+                Button1.Text = "Remaining";
+                Button2.Text = "Approved";
+                Button3.Text = "Total";
+            }
+
             //Totales
             GridView1.DataSource = salida.solicitudesTotales();
             GridView1.DataBind();

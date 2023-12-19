@@ -2,13 +2,6 @@
 using Modelos;
 using Servicios;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Vista
 {
@@ -16,6 +9,26 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Menu de compras";
+                Label1.Text = "Detalles";
+                Label2.Text = "Nombre";
+                Label3.Text = "Precio";
+                Label4.Text = "Nota. Los precios son en $ARS";
+                Label5.Text = "Ingrese los detalles del curso";
+                Button1.Text = "Agregar";
+            }
+            else
+            {
+                title.InnerText = "Purchase menu";
+                Label1.Text = "Details";
+                Label2.Text = "Name";
+                Label3.Text = "Price";
+                Label4.Text = "Note. Prices are being given in $ARS";
+                Label5.Text = "Add the details of the course";
+                Button1.Text = "Add";
+            }
 
         }
 

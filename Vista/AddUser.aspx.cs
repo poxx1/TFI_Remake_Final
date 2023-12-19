@@ -18,6 +18,33 @@ namespace Vista
         {
             if ((bool)Session["logged_in"] != true) HttpContext.Current.Response.Redirect("Start.aspx");
             if ((bool)Session["permission"] != true) HttpContext.Current.Response.Redirect("Default.aspx");
+
+            if ((int)Session["language"] == 1)
+            {
+                Label1.Text = "DNI";
+                Label2.Text = "Nombre";
+                Label3.Text = "Apellido";
+                Label4.Text = "Nombre de usuario";
+                Label5.Text = "Contrasenia";
+                Label6.Text = "Correo electronico";
+                Label7.Text = "Telefono";
+                Label8.Text = "Direccion";
+
+                Button1.Text = "Agregar usuario";
+            }
+            else
+            {
+                Label1.Text = "DNI";
+                Label2.Text = "Name";
+                Label3.Text = "Surename";
+                Label4.Text = "Username";
+                Label5.Text = "Password";
+                Label6.Text = "E-mail";
+                Label7.Text = "Telephone";
+                Label8.Text = "Address";
+
+                Button1.Text = "Add user";
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)

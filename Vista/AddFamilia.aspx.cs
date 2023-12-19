@@ -1,11 +1,6 @@
 ﻿using Modelos;
 using Servicios;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Vista
 {
@@ -13,7 +8,19 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                Label2.Text = "Nombre";
+                Label3.Text = "Descripcion";
+                Button1.Text = "Agregar familia";
 
+            }
+            else
+            {        
+                Label2.Text = "Name";
+                Label3.Text = "Description";
+                Button1.Text = "Add family";
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)

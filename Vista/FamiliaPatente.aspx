@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="/Style/TreeView.css" />
     <main aria-labelledby="title">
         <div>
-            <h3>Editar familia - patente</h3>
+            <h3 id="title" runat="server">Editar familia - patente</h3>
             <asp:Button ID="Button1" runat="server" Text="Listar permisos" OnClick="Button1_Click" /><hr />
             <h4>Permisos de los usuarios:</h4>
             <br />

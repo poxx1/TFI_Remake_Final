@@ -3,8 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <div>
-            <h3>Editar usuario</h3><hr />
-            Elija el usuario a editar<br />
+            <h3 runat="server" id="titulo">Editar usuario</h3><hr />
+            <asp:Label ID="Label10" runat="server" Text="Elija el usuario a editar"></asp:Label>
+            <br />
             <asp:ListBox ID="ListBox1" runat="server" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged" Width="250px"></asp:ListBox><hr />
                 <div>
             <asp:Label ID="Label2" runat="server" Text="Dni"></asp:Label><br />

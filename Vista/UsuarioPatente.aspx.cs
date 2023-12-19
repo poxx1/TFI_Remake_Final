@@ -18,6 +18,15 @@ namespace Vista
         PermissionsService ps = new PermissionsService();
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                //Label2.Text = "Nombre";
+            }
+            else
+            {
+
+            }
+
             if ((bool)Session["logged_in"] != true) HttpContext.Current.Response.Redirect("Start.aspx");
             if ((bool)Session["permission"] != true) HttpContext.Current.Response.Redirect("Default.aspx");
             if (!IsPostBack)

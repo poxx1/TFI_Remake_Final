@@ -15,6 +15,29 @@ namespace Vista
         CursosService cs = new CursosService();
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Editar curso";
+                Label1.Text = "Lista de cursos";
+                Label2.Text = "Nombre";
+                Label3.Text = "Detalles";
+                Label4.Text = "Precio";
+                Label5.Text = "Nota. Los precios son en $ARS";
+                Button1.Text = "Editar";
+                Button2.Text = "Seleccionar";
+            }
+            else
+            {
+                title.InnerText = "Editar curso";
+                Label1.Text = "Lista de cursos";
+                Label2.Text = "Name";
+                Label3.Text = "Details";
+                Label4.Text = "Price";
+                Label5.Text = "Note. Prices are in $ARS";
+                Button1.Text = "Edit";
+                Button2.Text = "Select";
+            }
+
             //Listar cursos
             if (!IsPostBack)
             {

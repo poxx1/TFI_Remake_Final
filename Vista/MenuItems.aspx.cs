@@ -20,6 +20,35 @@ namespace Vista
         List<string> cursos = new List<string>();
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Menu de compras";
+                Button1.Text = "Agregar al carrito";
+                Button2.Text = "Ir al carrito";
+                Label1.Text = "Lista de cursos";
+                Label2.Text = "Descripcion del curso";
+                Label3.Text = "$0";
+                Label4.Text = "Nombre del curso";
+                Label5.Text = "Nombre";
+                Label6.Text = "Precio";
+                Label7.Text = "Descripcion";
+                Label8.Text = "Carrito de compras";
+            }
+            else
+            {
+                title.InnerText = "Purchase menu";
+                Button1.Text = "Add to the shopping bag";
+                Button2.Text = "Go to the shopping bag";
+                Label1.Text = "Courses list";
+                Label2.Text = "Course description";
+                Label3.Text = "$0";
+                Label4.Text = "Name of the course";
+                Label5.Text = "Name";
+                Label6.Text = "Price";
+                Label7.Text = "Description";
+                Label8.Text = "Shopping bag";
+            }
+
             if (!IsPostBack)
             {
                 ListBox1.SelectedIndex = 0;

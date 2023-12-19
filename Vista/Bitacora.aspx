@@ -4,7 +4,7 @@
     <link href="/Style/DataGrid.css" rel="stylesheet" />
     <main aria-labelledby="title">
          <div>
-             <h3>Bitacora</h3><hr />
+             <h3 id="title" runat="server">Bitacora</h3><hr />
              Fecha&nbsp;&nbsp;
              Desde:
              <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>

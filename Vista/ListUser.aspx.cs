@@ -11,6 +11,17 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Listar usuarios";
+                Button1.Text = "Listar";
+            }
+            else
+            {
+                title.InnerText = "List users";
+                Button1.Text = "List";
+            }
+
             if ((bool)Session["logged_in"] != true) HttpContext.Current.Response.Redirect("Start.aspx");
             if ((bool)Session["permission"] != true) HttpContext.Current.Response.Redirect("Default.aspx");
         }

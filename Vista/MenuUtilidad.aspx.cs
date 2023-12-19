@@ -11,6 +11,32 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Menu de utilidades";
+                title2.InnerText = "Seccion del aldministrador";
+                title3.InnerText = "Seccion del webmaster";
+                Button1.Text = "Bitacora";
+                Button1.Text = "Salidas XML";
+                Button1.Text = "WebServices";
+                Button1.Text = "Backup";
+                Button1.Text = "Restore";
+                Button1.Text = "Corrupcion";
+
+            }
+            else
+            {
+                title.InnerText = "Utilities menu";
+                title2.InnerText = "Admin section";
+                title3.InnerText = "WS section";
+                Button1.Text = "Logs";
+                Button1.Text = "XML outputs";
+                Button1.Text = "WebServices";
+                Button1.Text = "Backup";
+                Button1.Text = "Restore";
+                Button1.Text = "Corruption";
+
+            }
 
         }
 

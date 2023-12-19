@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h3 id="title">Agregar usuario</h3><hr />
+        <h3 id="title" runat="server">Agregar usuario</h3><hr />
         <div>
             <asp:Label ID="Label1" runat="server" Text="Dni"></asp:Label><br />
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />

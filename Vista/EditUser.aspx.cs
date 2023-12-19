@@ -24,6 +24,42 @@ namespace Vista
                     ListBox1.Items.Add(user.Nickname);
                 }
             }
+            #region Idioma
+            if ((int)Session["language"] == 1)
+            {
+                titulo.InnerText = "Editar usuario";
+                Label10.Text = "Seleccione un usuario para editarlo";
+                Label2.Text = "DNI";
+                Label3.Text = "Nombre";
+                Label4.Text = "Apellido";
+                Label5.Text = "Nombre de usuario";
+                Label6.Text = "Contrasenia";
+                Label7.Text = "Correo electronico";
+                Label8.Text = "Telefono";
+                Label9.Text = "Direccion";
+
+                Button1.Text = "Editar";
+                Button2.Text = "Desbloquear";
+                Button3.Text = "Seleccionar";
+            }
+            else
+            {
+                titulo.InnerHtml = "Edit user";
+                Label10.Text = "Select an user to edit";
+                Label2.Text = "DNI";
+                Label3.Text = "Name";
+                Label4.Text = "Surename";
+                Label5.Text = "Username";
+                Label6.Text = "Password";
+                Label7.Text = "E-mail";
+                Label8.Text = "Telephone";
+                Label9.Text = "Address";
+
+                Button1.Text = "Edit";
+                Button2.Text = "Unblock";
+                Button3.Text = "Select";
+            }
+            #endregion
         }
         public bool isValidEmail(string emailaddress)
         {

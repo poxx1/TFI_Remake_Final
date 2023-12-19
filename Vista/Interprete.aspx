@@ -2,12 +2,12 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h2>Interprete virtual</h2>
+        <h2 id="title" runat="server">Interprete virtual</h2>
        <hr />
         <div>
-            <a>Ingrese la palabra a interpretar</a><br>
+            <asp:Label ID="Label2" runat="server" Text="Ingrese la palabra a interpretar"></asp:Label><br />
             <input id="Text1" type="text" /><br><br>
-            <input id="Button2" type="button" onclick="onButtonClick()" value="Interpretar" /><hr />
+            <input id="Button2" runat="server" type="button" onclick="onButtonClick()" value="Interpretar" /><hr />
         </div>
         <video id="video" width="640" height="480" autoplay>
             <source id="VideoPlayer" type="video/mp4">

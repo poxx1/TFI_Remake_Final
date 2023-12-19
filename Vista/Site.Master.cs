@@ -16,139 +16,26 @@ namespace Vista
         {
             get { return privatealert; }
         }
+        
         protected void Page_Load(object sender, EventArgs e)
         {
-            #region Espaniol
-            if (!Page.IsPostBack && (int)Session["language"] == 1)
-            {
-               
-                //List<string> userlist = new List<string>()
-                //{   "Menu de usuarios",
-                //    "Agregar usuario",
-                //    "Eliminar usuario",
-                //    "Modificar usuario",
-                //    "Listar usuarios"
-                //};
-                //UserList.DataSource = null;
-                //UserList.DataSource = userlist;
-                //UserList.DataBind();
-
-                //List<string> permissionlist = new List<string>()
-                //{
-                //    "Menu de permisos",
-                //    "Modificar Usuario/Patente",
-                //    "Modificar Familia/Patente",
-                //    "Agregar familia"
-                //};
-                //PermissionList.DataSource = null;
-                //PermissionList.DataSource = permissionlist;
-                //PermissionList.DataBind();
-
-                //List<string> adminlist = new List<string>()
-                //    {
-                //        "Menu de servicios",
-                //        "Bitacora",
-                //        "Backup",
-                //        "Salidas XML",
-                //        "Informes WS"
-                //    };
-                //AdminList.DataSource = null;
-                //AdminList.DataSource = adminlist;
-                //AdminList.DataBind();
-
-                //List<string> solicitudeslist = new List<string>()
-                //    {
-                //        "Menu de solicitudes",
-                //        "Interprete",
-                //        "Listar solicitudes",
-                //        "Aprobar solicitudes",
-                //        "Realizar solicitud"
-                //    };
-                //SolicitudesList.DataSource = null;
-                //SolicitudesList.DataSource = solicitudeslist;
-                //SolicitudesList.DataBind();
-
-                //List<string> comprasList = new List<string>()
-                //    {
-                //        "Menu de compras",
-                //        "Cursos disponibles",
-                //        "Carrito de compras",
-                //        "Agregar cursos",
-                //        "Editar cursos"
-                //    };
-                //ComprasList.DataSource = null;
-                //ComprasList.DataSource = comprasList;
-                //ComprasList.DataBind();            
+            if ((int)Session["language"] == 1)
+            {            
+                Button1.Text = "Idioma: ES";
+                //Utilidades.InnerHtml = "Utilities";
+                //Compras.InnerText = "Buy";
+                //Clientes.InnerText = "Clients";
+                //Interprete.InnerText = "Interpreter";
             }
-            #endregion
-
-            #region Ingles
-            //if(!Page.IsPostBack && (int)Session["language"] == 2)
-            //{
-            //    List<string> userlist = new List<string>()
-            //    {   "Users",
-            //        "Add user",
-            //        "Delete user",
-            //        "Update user",
-            //        "List user"
-            //    };
-            //    UserList.DataSource = null;
-            //    UserList.DataSource = userlist;
-            //    UserList.DataBind();
-
-            //    List<string> permissionlist = new List<string>()
-            //    {
-            //        "Permissions",
-            //        "Update Usuario/Patente",
-            //        "Update Familia/Patente",
-            //    };
-            //    PermissionList.DataSource = null;
-            //    PermissionList.DataSource = permissionlist;
-            //    PermissionList.DataBind();
-
-            //    List<string> adminlist = new List<string>()
-            //        {
-            //            "Services",
-            //            "Bitacora",
-            //            "Backup",
-            //            "XML",
-            //            "WebServices"
-            //        };
-            //    AdminList.DataSource = null;
-            //    AdminList.DataSource = adminlist;
-            //    AdminList.DataBind();
-
-            //    List<string> solicitudeslist = new List<string>()
-            //        {
-            //            "Requests",
-            //            "Interpreter",
-            //            "Request List",
-            //            "Request Approval",
-            //            "New Request"
-            //        };
-            //    SolicitudesList.DataSource = null;
-            //    SolicitudesList.DataSource = solicitudeslist;
-            //    SolicitudesList.DataBind();
-
-            //    List<string> comprasList = new List<string>()
-            //        {
-            //            "Purchase",
-            //            "Courses",
-            //            "Shopping bag",
-            //            "Add course",
-            //            "Edit course"
-            //        };
-
-            //    ComprasList.DataSource = null;
-            //    ComprasList.DataSource = comprasList;
-            //    ComprasList.DataBind();
-            #endregion
+            else
+            {
+                Button1.Text = "Language: EN";
+            }
 
             #region Permisos
 
             UserModel user = new UserModel();
             PermissionsService ps = new PermissionsService();
-
 
 
             if ((bool)Session["recalcular"] != true)
@@ -166,20 +53,13 @@ namespace Vista
                     permiso.Childs.ForEach(x => strings.Add(x.Nombre));
                 }
 
-                //if (!strings.Contains("Usuarios"))
-                //    UserList.Enabled = false;
-                //if (!strings.Contains("Patentes"))
-                //    PermissionList.Enabled = false;
-                //if (!strings.Contains("Bitacora"))
-                //    AdminList.Enabled = false;
-
-
-                #endregion
-
                 Label1.Text = "2023 - Lastra Julian - Proyecto - Trabajo Final de Ing. | Nombre de usuario: " + user.Nickname + " | Tipo de usuario: " + tipoUsuario;
+            #endregion
+
+            }
+
         }
-      
-    }
+
         #region antiguo metodo
         //protected void UserList_SelectedIndexChanged(object sender, EventArgs e)
         //{
@@ -446,6 +326,40 @@ namespace Vista
             //    #endregion
             //    Page.Response.Redirect(Page.Request.Url.ToString(), true);
             //}
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            CambiarIdioma();
+        }
+        private void CambiarIdioma()
+        {
+            if ((int)Session["language"] == 1)
+            {
+                Session["language"] = 2;
+
+                Button1.Text = "Language: EN";
+                
+                //Si toco esto el CSS se hace poronga, why? ni puta idea.
+
+                
+
+                //Utilidades.InnerHtml = "Utilities";
+                //Compras.InnerText = "Buy";
+                //Clientes.InnerText = "Clients";
+                //Interprete.InnerText = "Interpreter";
+                
+                Page.Response.Redirect(Page.Request.Url.ToString(), true);
+
+            }
+            else 
+            {   
+                Session["language"] = 1;
+
+                Button1.Text = "Idioma: ES";
+
+                Page.Response.Redirect(Page.Request.Url.ToString(), true);
+            }
         }
     }
 }

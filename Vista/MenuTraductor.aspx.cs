@@ -11,6 +11,26 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Menu del interprete";
+                title2.InnerText = "Seccion del intermprete";
+                Button1.Text = "Interprete virtual";
+                Button2.Text = "Agregar traduccion";
+                Button3.Text = "Modificar traduccion";
+                Button4.Text = "Listar traducciones";
+                Button5.Text = "Eliminar traduccion";
+            }
+            else
+            {
+                title.InnerText = "Menu del interprete";
+                title2.InnerText = "Seccion del intermprete";
+                Button1.Text = "Virtual interpreter";
+                Button2.Text = "Add translation";
+                Button3.Text = "Modify a translation";
+                Button4.Text = "List translations";
+                Button5.Text = "Delete translations";
+            }
 
         }
 

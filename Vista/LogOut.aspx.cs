@@ -17,6 +17,19 @@ namespace Vista
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Cerrar sesion";
+                Label1.Text = "Usuario logeado";
+                Button2.Text = "Cerrar sesion";
+            }
+            else
+            {
+                title.InnerText = "LogOut";
+                Label1.Text = "Logged user";
+                Button2.Text = "LogOut";
+            }
+
             //Button2.Visible = false;
             if ((bool)Session["logged_in"] != true) HttpContext.Current.Response.Redirect("Start.aspx");
             TextBox1.Text = SessionModel.GetInstance.user.Nickname;

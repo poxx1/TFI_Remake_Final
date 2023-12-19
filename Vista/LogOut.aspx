@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h3>Cerrar sesion</h3>
+        <h3 id="title" runat="server">Cerrar sesion</h3>
         <hr />
          <div>
             <asp:Label ID="Label1" runat="server" Text="Usuario actualmente logeado"></asp:Label> <br />

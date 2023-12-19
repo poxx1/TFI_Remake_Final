@@ -12,6 +12,19 @@ namespace Vista
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Eliminar usuario";
+                Label2.Text = "Seleccione un usuario";
+                Button1.Text = "Eliminar usuario";
+            }
+            else
+            {
+                title.InnerText = "Delete an user";
+                Label2.Text = "Select an user";
+                Button1.Text = "Delete";
+            }
+
             if ((bool)Session["logged_in"] != true) HttpContext.Current.Response.Redirect("Start.aspx");
             if ((bool)Session["permission"] != true) HttpContext.Current.Response.Redirect("Start.aspx");
 

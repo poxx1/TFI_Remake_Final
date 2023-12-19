@@ -16,6 +16,25 @@ namespace Vista
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Listar traducciones";
+                Label1.Text = "Estado de aprobacion";
+                Label2.Text = "Nombre";
+                Label3.Text = "Descripcion";
+                Button1.Text = "Aprobar";
+                Button2.Text = "Seleccionar";
+            }
+            else
+            {
+                title.InnerText = "List of translations";
+                Label1.Text = "Status of approval";
+                Label2.Text = "Name";
+                Label3.Text = "Description";
+                Button1.Text = "Approve";
+                Button2.Text = "Select";
+            }
+
             if (!IsPostBack)
             {
                 List<InterpretacionModel> list = new List<InterpretacionModel>();

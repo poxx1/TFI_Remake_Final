@@ -12,6 +12,19 @@ namespace Vista
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            if ((int)Session["language"] == 1)
+            {
+                title.InnerText = "Interprete";
+                Button2.Name = "Intepretar";
+                //La cague con esto?
+            }
+            else
+            {
+
+                title.InnerText = "Interpreter";
+                Button2.Name = "Intepret";
+                //La cague con esto?
+            }
         }
     }
 }
