@@ -90,7 +90,7 @@ namespace Servicios
 
             if (!logRepo.calculateDVV(list).Equals(logRepo.getDVV()))
             {
-                errors.Add($"El digito verificador vertical de la tabla usuarios no es correcto");
+                errors.Add($"El digito verificador vertical de la tabla {logRepo.tableName} no es correcto");
             }
 
             return errors;

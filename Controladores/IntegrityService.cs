@@ -20,6 +20,7 @@ namespace Business
             services.Add(new CursosService());
             services.Add(new BitacoraService());
             services.Add(new PermissionsService());
+            services.Add(new SolicitudService());
         }
         public List<String> check()
         {
