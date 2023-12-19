@@ -18,3 +18,13 @@ C:\Entrega final\Entrega_Final\Modelos\obj\Debug\Model.csproj.CoreCompileInputs.
 C:\Entrega final\Entrega_Final\Modelos\obj\Debug\Model.csproj.CopyComplete
 C:\Entrega final\Entrega_Final\Modelos\obj\Debug\Modelos.dll
 C:\Entrega final\Entrega_Final\Modelos\obj\Debug\Modelos.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Modelos\bin\Debug\Modelos.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Modelos\bin\Debug\Modelos.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Modelos\bin\Debug\FastMember.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Modelos\bin\Debug\Interfaces.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Modelos\bin\Debug\Interfaces.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Modelos\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Modelos\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Modelos\obj\Debug\Model.csproj.CopyComplete
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Modelos\obj\Debug\Modelos.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Modelos\obj\Debug\Modelos.pdb

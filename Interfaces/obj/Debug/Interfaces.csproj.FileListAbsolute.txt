@@ -14,3 +14,11 @@ C:\Entrega final\Entrega_Final\Interfaces\obj\Debug\Interfaces.csproj.CoreCompil
 C:\Entrega final\Entrega_Final\Interfaces\obj\Debug\Interfaces.csproj.CopyComplete
 C:\Entrega final\Entrega_Final\Interfaces\obj\Debug\Interfaces.dll
 C:\Entrega final\Entrega_Final\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Interfaces\bin\Debug\FastMember.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Interfaces\obj\Debug\Interfaces.csproj.CopyComplete
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Interfaces\obj\Debug\Interfaces.pdb

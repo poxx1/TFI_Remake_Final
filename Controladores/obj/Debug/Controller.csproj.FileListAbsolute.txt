@@ -58,3 +58,31 @@ C:\Entrega final\Entrega_Final\Controladores\obj\Debug\Controller.csproj.CoreCom
 C:\Entrega final\Entrega_Final\Controladores\obj\Debug\Controller.csproj.CopyComplete
 C:\Entrega final\Entrega_Final\Controladores\obj\Debug\Controladores.dll
 C:\Entrega final\Entrega_Final\Controladores\obj\Debug\Controladores.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Controladores.dll.config
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Controladores.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Controladores.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\AccesoDatos.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\API.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\DigitosVerificadoresLib.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\FastMember.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\itextsharp.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Modelos.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Servicios.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Spire.Pdf.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Interfaces.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Microsoft.mshtml.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\AccesoDatos.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\API.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\API.dll.config
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\DigitosVerificadoresLib.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Modelos.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Servicios.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\itextsharp.xml
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Spire.Pdf.xml
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\bin\Debug\Interfaces.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\obj\Debug\Controller.csproj.AssemblyReference.cache
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\obj\Debug\Controller.csproj.CopyComplete
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\obj\Debug\Controladores.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Controladores\obj\Debug\Controladores.pdb

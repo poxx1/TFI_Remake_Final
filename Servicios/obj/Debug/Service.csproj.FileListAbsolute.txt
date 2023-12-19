@@ -22,3 +22,15 @@ C:\Entrega final\Entrega_Final\Servicios\obj\Debug\Service.csproj.CoreCompileInp
 C:\Entrega final\Entrega_Final\Servicios\obj\Debug\Service.csproj.CopyComplete
 C:\Entrega final\Entrega_Final\Servicios\obj\Debug\Servicios.dll
 C:\Entrega final\Entrega_Final\Servicios\obj\Debug\Servicios.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\bin\Debug\Servicios.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\bin\Debug\Servicios.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\bin\Debug\FastMember.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\bin\Debug\Modelos.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\bin\Debug\Interfaces.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\bin\Debug\Modelos.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\bin\Debug\Interfaces.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\obj\Debug\Service.csproj.AssemblyReference.cache
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\obj\Debug\Service.csproj.CopyComplete
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\obj\Debug\Servicios.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\Servicios\obj\Debug\Servicios.pdb

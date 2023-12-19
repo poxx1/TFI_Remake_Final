@@ -199,3 +199,13 @@ C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerifica
 C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CopyComplete
 C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.dll
 C:\Entrega final\Entrega_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\DigitosVerificadoresLib\bin\Debug\DigitosVerificadoresLib.pdb
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\DigitosVerificadoresLib\bin\Debug\EnvDTE.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\DigitosVerificadoresLib\bin\Debug\stdole.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\DigitosVerificadoresLib\bin\Debug\EnvDTE.xml
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.AssemblyReference.cache
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CoreCompileInputs.cache
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.csproj.CopyComplete
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.dll
+C:\Users\juanc\Desktop\juli\TFI_Remake_Final\DigitosVerificadoresLib\obj\Debug\DigitosVerificadoresLib.pdb
