@@ -3,9 +3,6 @@ using Modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Vista
 {
@@ -14,9 +11,18 @@ namespace Vista
         SolicitudService ss = new SolicitudService();
         protected void Page_Load(object sender, EventArgs e)
         {
+            //Falta cagargar bien la lista y desues revisar si cambio bien la data en los otros metodos
             if (!IsPostBack)
             {
-                ListBox1.DataSource = ss.listSolicitud(); ;
+                List<InterpretacionModel> lista = ss.listSolicitud().ToList();
+                List<string> strings = new List<string>();
+                
+                foreach(InterpretacionModel model in lista)
+                {
+                    strings.Add(model.Name.ToString());
+                }
+
+                ListBox1.DataSource = strings;
                 ListBox1.DataBind();
             }
         }
