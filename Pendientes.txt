@@ -1,6 +1,4 @@
 ###################################### Errores pendientes de modificacion ##################################################
-1. Menu de Restore/Recalcular hay que agregar las otras tablas y ver porque rompe todo.
-	1 Bis. Al 1 hay que agregarle lo de los digitos verificadores de los demas
 
 2. Todavia se sigue bugeando el select al clickear en la lista. No funciona bien en ningun menu eso.
 
@@ -8,14 +6,14 @@
 
 4. Crea una famila nueva, le agrega 1 SOLO PERMISO, despues si hces algo mas se rompe a la mierda
 
-######################################  Pendientes  ##################################################
-//
-3. Crear familia > creado, falta modificar // Necesito que agregue el permiso default o rompe.
+######################################  Pendientes  ##########################################################################
+
+1. Copiarme familia/patente de lo de Juanca
+2. Copiarme bitacora de lo de juanca porque los filtros andan para la mierda
+3. ?
 4. La compra no guarda registro en la db
 5. Traduccion total del sitio
-6. DVH y DVV no estan implementados
-7. No se si valido todos los formualarios
-8. Familas no anda de seguro
-9. Patentes no anda de seguro
+6. DVH y DVV no estan implementados (Juanca ta con eso)
+7. Validar todos los formularios por HTML o regex pero valida ctm.
 10. Agregar los permisos bien a todas las paginas y hacer el enable/disable de los controles
-11. A todos los menus hay que cambiarle el message box
+11. Agregar a todos los menu, el mensaje de error/ok Cusotom (jaja).
