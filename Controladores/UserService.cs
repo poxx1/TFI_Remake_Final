@@ -164,12 +164,20 @@ namespace Controladores
             {
                 errors.Add($"El digito verificador vertical de la tabla usuarios no es correcto");
             }
+            userRepository.getAllRelations().ForEach(rel =>
+            {
+                if (!rel.dvh.Equals(userRepository.calculateDVH(rel.idUsuario, rel.idPermiso)))
+                {
+                    errors.Add($"En la tabla User_Permission: La relacion con idUsuario : {rel.idUsuario} e idPermiso: {rel.idPermiso} , fue modificado");
+                }
+            });
 
             return errors;
         }
         public void reacalcDV()
         {
             userRepository.UpdateAllDV();
+            userRepository.updateAllrelations(userRepository.getAllRelations());
             userRepository.updateDVV();
         }
     }

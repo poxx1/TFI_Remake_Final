@@ -579,5 +579,122 @@ namespace AccesoDatos
         {
             throw new NotImplementedException();
         }
+
+
+        private string SafeGetString(SqlDataReader reader, int colIndex)
+        {
+            if (!reader.IsDBNull(colIndex))
+                return reader.GetString(colIndex);
+            return string.Empty;
+        }
+        public string calculateDVH(int a, int b)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append(a);
+            sb.Append(b);
+
+            return DVService.getDV(sb.ToString());
+        }
+
+        public List<UserPremisionRelation> getAllRelations()
+        {
+            try
+            {
+                var cnn = ConnectionSingleton.getConnection();
+                try
+                {
+
+
+                    cnn.Open();
+                    var cmd = new SqlCommand();
+                    cmd.Connection = cnn;
+
+                    var sql = $@"select * from User_Permission ";
+
+                    cmd.CommandText = sql;
+
+                    var reader = cmd.ExecuteReader();
+
+                    List<UserPremisionRelation> lista = new List<UserPremisionRelation>();
+
+                    while (reader.Read())
+                    {
+
+                        UserPremisionRelation relacion = new UserPremisionRelation();
+                        relacion.idUsuario = reader.GetInt32(reader.GetOrdinal("ID_User"));
+                        relacion.idPermiso = reader.GetInt32(reader.GetOrdinal("ID_Permission"));
+                        relacion.dvh = SafeGetString(reader, reader.GetOrdinal("dvh"));
+                        lista.Add(relacion);
+
+                    }
+                    reader.Close();
+                    cnn.Close();
+
+                    return lista;
+                }
+                catch (Exception)
+                {
+                    cnn.Close();
+                    throw;
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+        }
+
+        public void updateAllrelations(List<UserPremisionRelation> relations)
+        {
+
+
+            try
+            {
+                var cnn = ConnectionSingleton.getConnection();
+                cnn.Open();
+                var cmd = new SqlCommand();
+                cmd.Connection = cnn;
+
+
+                var sql = $@"delete from User_Permission";
+
+                cmd.CommandText = sql;
+                cmd.ExecuteNonQuery();
+
+                relations.ForEach(obj =>
+                {
+                    cmd = new SqlCommand();
+                    cmd.Connection = cnn;
+
+
+                    sql = $@"insert into User_Permission (ID_User,ID_Permission,dvh) values (@ID_User,@ID_Permission,@dvh) ";
+
+                    cmd.CommandText = sql;
+                    cmd.Parameters.Add(new SqlParameter("ID_User", obj.idUsuario));
+                    cmd.Parameters.Add(new SqlParameter("ID_Permission", obj.idPermiso));
+                    cmd.Parameters.Add(new SqlParameter("dvh", calculateDVH(obj.idUsuario, obj.idPermiso)));
+
+                    cmd.ExecuteNonQuery();
+                });
+
+                cnn.Close();
+            }
+            catch
+            {
+                throw;
+            };
+
+        }
+
+        public class UserPremisionRelation
+        {
+            public int idUsuario { get; set; }
+            public int idPermiso { get; set; }
+
+            public string dvh { get; set; }
+        }
     }
 }
