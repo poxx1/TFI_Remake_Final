@@ -107,6 +107,7 @@
   <ItemGroup>
     <Content Include="AddFamilia.aspx" />
     <Content Include="AddSolicitud.aspx" />
+    <Content Include="aPatenteFamilia.aspx" />
     <Content Include="Backup.aspx" />
     <Content Include="Bitacora.aspx" />
     <Content Include="Corrupcion.aspx" />
@@ -241,6 +242,13 @@
     </Compile>
     <Compile Include="AddSolicitud.aspx.designer.cs">
       <DependentUpon>AddSolicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aPatenteFamilia.aspx.cs">
+      <DependentUpon>aPatenteFamilia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aPatenteFamilia.aspx.designer.cs">
+      <DependentUpon>aPatenteFamilia.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="Backup.aspx.cs">

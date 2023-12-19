@@ -12,7 +12,7 @@
 2. Copiarme bitacora de lo de juanca porque los filtros andan para la mierda
 3. ?
 4. La compra no guarda registro en la db
-5. Traduccion total del sitio
+5. Revisar las traducciones, hay algunas falopas
 6. DVH y DVV no estan implementados (Juanca ta con eso)
 7. Validar todos los formularios por HTML o regex pero valida ctm.
 10. Agregar los permisos bien a todas las paginas y hacer el enable/disable de los controles

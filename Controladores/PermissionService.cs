@@ -61,14 +61,22 @@ namespace Servicios
             permissionsRepository.FillUserComponents(u);
 
         }
-        public void FillFamilyComponents(Family familia)
+        //public void FillFamilyComponents(Family familia)
+        //{
+        //    permissionsRepository.FillFamilyComponents(familia);
+        //}
+
+        public Family FillFamilyComponents(Family familia)
         {
             permissionsRepository.FillFamilyComponents(familia);
+            return familia;
         }
+
         //public Patent GetPatent(PermissionRepository permissionsEnum)
         //{
         //    return permissionsRepository.GetPatent(permissionsEnum); //Y esta flasheada?
         //}
+
         public Patent GetPatent(PermissionsEnum permissionsEnum)
         {
             //Este lo agregue nuevo porque el otro era de drogadicto

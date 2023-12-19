@@ -20,9 +20,7 @@ namespace Vista
                 Button2.Text = "Modificar usuarios";
                 Button3.Text = "Listar usuarios";
                 Button4.Text = "Eliminar usuario";
-                Button5.Text = "Familias";
-                Button6.Text = "Patentes";
-                Button7.Text = "Crear familias";
+                Button5.Text = "Permisos";
             }
             else
             {
@@ -33,9 +31,7 @@ namespace Vista
                 Button2.Text = "Edit user";
                 Button3.Text = "List user";
                 Button4.Text = "Delete user";
-                Button5.Text = "Families";
-                Button6.Text = "Patents";
-                Button7.Text = "Create families";
+                Button5.Text = "Permissions";
             }
 
         }
@@ -49,13 +45,7 @@ namespace Vista
         protected void Button5_Click(object sender, EventArgs e)
         {
             //Familia
-            HttpContext.Current.Response.Redirect("FamiliaPatente.aspx");
-        }
-
-        protected void Button6_Click(object sender, EventArgs e)
-        {
-            //Patente
-            HttpContext.Current.Response.Redirect("UsuarioPatente.aspx");
+            HttpContext.Current.Response.Redirect("aPatenteFamilia.aspx");
         }
 
         protected void Button2_Click(object sender, EventArgs e)
@@ -74,11 +64,6 @@ namespace Vista
         {
             //Delete
             HttpContext.Current.Response.Redirect("DeleteUser.aspx");
-        }
-
-        protected void Button7_Click(object sender, EventArgs e)
-        {
-            HttpContext.Current.Response.Redirect("AddFamilia.aspx");
         }
     }
 }

@@ -16,9 +16,7 @@
         <hr />
         <div>
             <h3 id="title3" runat="server">Seccion de permisos</h3>
-            <asp:Button ID="Button5" runat="server" Text="Familias" OnClick="Button5_Click" />
-            <asp:Button ID="Button6" runat="server" Text="Patentes" OnClick="Button6_Click" />
-            <asp:Button ID="Button7" runat="server" Text="Agregar familia" OnClick="Button7_Click" />
+            <asp:Button ID="Button5" runat="server" Text="Permisos" OnClick="Button5_Click" />
         </div>
     </main>
 </asp:Content>

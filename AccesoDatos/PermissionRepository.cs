@@ -144,7 +144,6 @@ namespace AccesoDatos
         }
         public List<Patent> GetAllPatents()
         {
-
             var cnn = ConnectionSingleton.getConnection();
             cnn.Open();
             var cmd = new SqlCommand();
