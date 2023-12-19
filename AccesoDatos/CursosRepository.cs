@@ -88,6 +88,7 @@ namespace AccesoDatos
                 
                 cmd.ExecuteNonQuery();
                 connection.Close();
+                updateDVV();
 
                 return true;
             }

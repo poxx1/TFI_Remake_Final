@@ -1,19 +1,22 @@
 ###################################### Errores pendientes de modificacion ##################################################
 
-2. Todavia se sigue bugeando el select al clickear en la lista. No funciona bien en ningun menu eso.
-
 3. Agregar los puntos B, C y D de la bitacora. (26 en la hoja del profe).
-
-4. Crea una famila nueva, le agrega 1 SOLO PERMISO, despues si hces algo mas se rompe a la mierda
 
 ######################################  Pendientes  ##########################################################################
 
-1. Copiarme familia/patente de lo de Juanca
+#Todo lo que elimina agregar updateDVV(); por si falta
+
 2. Copiarme bitacora de lo de juanca porque los filtros andan para la mierda
-3. ?
-4. La compra no guarda registro en la db
-5. Revisar las traducciones, hay algunas falopas
-6. DVH y DVV no estan implementados (Juanca ta con eso)
 7. Validar todos los formularios por HTML o regex pero valida ctm.
 10. Agregar los permisos bien a todas las paginas y hacer el enable/disable de los controles
 11. Agregar a todos los menu, el mensaje de error/ok Cusotom (jaja).
+
+######################################  Traducir  ##########################################################################
+utilities
+Admin section > Bitacora se traduce a corruption. XD
+salidas xml ni se traduce
+WS section > corrupcion no se traduce
+
+Listar usuarios > Detalles de los usuarios no c traduce
+
+Digito verificador de usuario cuando borro no anda

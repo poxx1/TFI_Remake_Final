@@ -38,7 +38,7 @@ namespace AccesoDatos
                     mm.Name = reader.GetString(reader.GetOrdinal("Nombre"));
                     mm.Fecha = reader.GetString(reader.GetOrdinal("Fecha"));
                     mm.Description = reader.GetString(reader.GetOrdinal("Descripcion"));
-                    var test = (reader.GetBoolean(reader.GetOrdinal("Aprobada")));
+                    mm.ID_user = reader.GetInt32(reader.GetOrdinal("ID_user"));
                     //mm.isApproved = bool.Parse(reader.GetString(reader.GetOrdinal("Aprobada")));
                     mm.isApproved = reader.GetBoolean(reader.GetOrdinal("Aprobada"));
                     mm.dvh = reader.GetString(reader.GetOrdinal("dvh"));

@@ -32,6 +32,7 @@ namespace Servicios
             {
                 connection = constructor();
             }
+            if (connection.State == System.Data.ConnectionState.Open) { connection.Close(); }
             return connection;
         }
     }

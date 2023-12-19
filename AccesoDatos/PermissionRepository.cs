@@ -30,7 +30,7 @@ namespace AccesoDatos
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = cnn;
 
-                var sql = $@"insert into Permission (nombre,permiso,dvh) values (@nombre,@permiso,@dvh);  SELECT ID AS LastID FROM permiso WHERE ID = @@Identity;";
+                var sql = $@"insert into Permission (Name,Permission,dvh) values (@Name,@Permission,@dvh);  SELECT ID AS LastID FROM Permission WHERE ID = @@Identity;";
 
                 cmd.CommandText = sql;
                 cmd.Parameters.Add(new SqlParameter("Name", component.Nombre));
