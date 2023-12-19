@@ -41,6 +41,8 @@ namespace AccesoDatos
                     mm.Name = reader.GetString(reader.GetOrdinal("Name"));
                     mm.Description = reader.GetString(reader.GetOrdinal("Description"));
                     mm.Price = float.Parse(reader.GetString(reader.GetOrdinal("Precio")));
+                    mm.dvh = reader.GetString(reader.GetOrdinal("dvh"));
+
 
                     list.Add(mm);
                 }

@@ -3,11 +3,15 @@ using DataAccess;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using DigitosVerificadoresLib.interfaces;
 
 namespace Servicios
 {
-    public class BitacoraService
+    public class BitacoraService : IDVService
     {
+        BitacoraRepository logRepo = new BitacoraRepository();
+
+
         private string getCurrentTime()
         {
             //Para no tener problemas con las fechas, le hardcodeo a la verga la cultura y siempre
@@ -56,15 +60,40 @@ namespace Servicios
             log.Info = informacion;
             log.Priority = prioridad;
 
-           BitacoraRepository logRepo = new BitacoraRepository();
 
             return logRepo.saveLog(log);
         }
 
         public List<LogModel> ListLogs()
         {
-            BitacoraRepository log = new BitacoraRepository();
-            return log.listLogs();
+            return logRepo.listLogs();
+        }
+
+        public void reacalcDV()
+        {
+            logRepo.UpdateAllDV();
+            logRepo.updateDVV();
+        }
+
+        public List<string> checkintegrity()
+        {
+            List<String> errors = new List<string>();
+            List<LogModel> list = logRepo.getAll();
+
+            list.ForEach(item =>
+            {
+                if (!(logRepo.calculateDVH(item).Equals(item.dvh)))
+                {
+                    errors.Add($"En la tabla {logRepo.tableName}: El item con id : {item.Id} , fue modificado");
+                }
+            });
+
+            if (!logRepo.calculateDVV(list).Equals(logRepo.getDVV()))
+            {
+                errors.Add($"El digito verificador vertical de la tabla usuarios no es correcto");
+            }
+
+            return errors;
         }
     }
 }

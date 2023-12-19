@@ -18,6 +18,7 @@ namespace Business
         {
             services.Add( new UserService());
             services.Add(new CursosService());
+            services.Add(new BitacoraService());
         }
         public List<String> check()
         {
