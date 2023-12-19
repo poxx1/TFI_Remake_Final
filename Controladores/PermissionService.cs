@@ -1,12 +1,14 @@
 ﻿using AccesoDatos;
+using DigitosVerificadoresLib.interfaces;
 using Model;
 using Modelos;
+using System;
 using System.Collections.Generic;
 using Component = Modelos.Component;
 
 namespace Servicios
 {
-    public class PermissionsService
+    public class PermissionsService : IDVService
     {
         private PermissionRepository permissionsRepository;
         public PermissionsService()
@@ -72,5 +74,46 @@ namespace Servicios
             //Este lo agregue nuevo porque el otro era de drogadicto
             return permissionsRepository.GetPatent(permissionsEnum);
         }
+
+        public void reacalcDV()
+        {
+
+            permissionsRepository.UpdateAllDV();
+            permissionsRepository.updateAllrelations(permissionsRepository.getAllRelations());
+            permissionsRepository.updateDVV();
+        }
+
+        public List<string> checkintegrity()
+        {
+            List<String> errors = new List<string>();
+            var list = permissionsRepository.getAll();
+
+            list.ForEach(item =>
+            {
+                if (!item.dvh.Equals(permissionsRepository.calculateDVH(item)))
+                {
+                    errors.Add($"En la tabla {permissionsRepository.tableName}: El  {permissionsRepository.tableName} con id : {item.Id} , fue modificado");
+                }
+            });
+
+            if (!permissionsRepository.calculateDVV(list).Equals(permissionsRepository.getDVV()))
+            {
+                errors.Add($"El digito verificador vertical de la tabla  {permissionsRepository.tableName} no es correcto");
+            }
+
+
+            permissionsRepository.getAllRelations().ForEach(rel =>
+            {
+                if (!rel.dvh.Equals(permissionsRepository.calculateDVH(rel.IdPadre, rel.IdHijo)))
+                {
+                    errors.Add($"En la tabla permiso_permiso: La relacion con idpadre : {rel.IdPadre} e idhijo: {rel.IdHijo} , fue modificado");
+                }
+            }
+
+            );
+
+            return errors;
+        }
     }
 }
+

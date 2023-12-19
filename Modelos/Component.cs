@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using Interfaces;
+using System.Collections.Generic;
 
 namespace Modelos
 {
-    public abstract class Component
+    public abstract class Component : IDVEntity
     {
         public string Nombre { get; set; }
         public int Id { get; set; }
@@ -12,6 +13,8 @@ namespace Modelos
         public abstract void RemoveChild(Component c);
         public abstract void ClearChilds();
         public PermissionsEnum Permiso { get; set; }
+        public string dvh { get; set; }
+
         public override string ToString()
         {
             return Nombre;
