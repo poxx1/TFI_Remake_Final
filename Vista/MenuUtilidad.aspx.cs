@@ -17,11 +17,11 @@ namespace Vista
                 title2.InnerText = "Seccion del aldministrador";
                 title3.InnerText = "Seccion del webmaster";
                 Button1.Text = "Bitacora";
-                Button1.Text = "Salidas XML";
-                Button1.Text = "WebServices";
-                Button1.Text = "Backup";
-                Button1.Text = "Restore";
-                Button1.Text = "Corrupcion";
+                Button2.Text = "Salidas XML";
+                Button3.Text = "WebServices";
+                Button4.Text = "Backup";
+                Button5.Text = "Restore";
+                Button6.Text = "Corrupcion";
 
             }
             else
@@ -30,11 +30,11 @@ namespace Vista
                 title2.InnerText = "Admin section";
                 title3.InnerText = "WS section";
                 Button1.Text = "Logs";
-                Button1.Text = "XML outputs";
-                Button1.Text = "WebServices";
-                Button1.Text = "Backup";
-                Button1.Text = "Restore";
-                Button1.Text = "Corruption";
+                Button2.Text = "XML outputs";
+                Button3.Text = "WebServices";
+                Button4.Text = "Backup";
+                Button5.Text = "Restore";
+                Button6.Text = "Corruption";
 
             }
 

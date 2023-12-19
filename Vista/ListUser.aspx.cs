@@ -14,11 +14,13 @@ namespace Vista
             if ((int)Session["language"] == 1)
             {
                 title.InnerText = "Listar usuarios";
+                title2.InnerText = "Detalle de los usuarios";
                 Button1.Text = "Listar";
             }
             else
             {
                 title.InnerText = "List users";
+                title2.InnerText = "User details";
                 Button1.Text = "List";
             }
 
