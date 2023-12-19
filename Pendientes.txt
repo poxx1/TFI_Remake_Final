@@ -9,9 +9,6 @@
 4. Crea una famila nueva, le agrega 1 SOLO PERMISO, despues si hces algo mas se rompe a la mierda
 
 ######################################  Pendientes  ##################################################
-
-1. Elimminar cursos. la UI es un asquito, no tiene el boton de seleccionar, y no lista nada
-2. Modificar traduccion. La lista esta como el orto, traerse los nombres.
 //
 3. Crear familia > creado, falta modificar // Necesito que agregue el permiso default o rompe.
 4. La compra no guarda registro en la db

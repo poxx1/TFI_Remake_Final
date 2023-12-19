@@ -95,10 +95,6 @@ E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Vista\obj\Debug\View.csproj.CoreCompi
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Vista\obj\Debug\View.csproj.CopyComplete
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Vista\obj\Debug\Vista.dll
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\Vista\obj\Debug\Vista.pdb
-C:\Entrega final\Entrega_Final\Vista\bin\SqlServerTypes\x64\msvcr120.dll
-C:\Entrega final\Entrega_Final\Vista\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Entrega final\Entrega_Final\Vista\bin\SqlServerTypes\x86\msvcr120.dll
-C:\Entrega final\Entrega_Final\Vista\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
 C:\Entrega final\Entrega_Final\Vista\bin\Vista.dll.config
 C:\Entrega final\Entrega_Final\Vista\bin\Vista.dll
 C:\Entrega final\Entrega_Final\Vista\bin\Vista.pdb

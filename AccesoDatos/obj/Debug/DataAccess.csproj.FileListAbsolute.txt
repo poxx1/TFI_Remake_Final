@@ -18,10 +18,6 @@ E:\UAI_TFI_2023-master\UAI_TFI_2023-master\AccesoDatos\obj\Debug\DataAccess.cspr
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\AccesoDatos\obj\Debug\DataAccess.csproj.CopyComplete
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\AccesoDatos\obj\Debug\AccesoDatos.dll
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\AccesoDatos\obj\Debug\AccesoDatos.pdb
-C:\Entrega final\Entrega_Final\AccesoDatos\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Entrega final\Entrega_Final\AccesoDatos\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Entrega final\Entrega_Final\AccesoDatos\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Entrega final\Entrega_Final\AccesoDatos\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
 C:\Entrega final\Entrega_Final\AccesoDatos\bin\Debug\AccesoDatos.dll
 C:\Entrega final\Entrega_Final\AccesoDatos\bin\Debug\AccesoDatos.pdb
 C:\Entrega final\Entrega_Final\AccesoDatos\bin\Debug\DigitosVerificadoresLib.dll

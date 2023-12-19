@@ -117,11 +117,12 @@ namespace AccesoDatos
         }
         public bool Update(InterpretacionModel interpretacion)
         {
+            SqlConnection connection = ConnectionSingleton.getConnection();
+            connection.Open();
+
             try
             {
-                SqlConnection connection = ConnectionSingleton.getConnection();
-                connection.Open();
-                string query = $@"UPDATE Interpretaciones SET Nombre = @Nombre, Descripcion = @Descripcion, where ID = @ID";
+                string query = $@"UPDATE Interpretaciones SET Nombre = @Nombre, Descripcion = @Descripcion where ID = @ID";
 
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandText = query;
@@ -138,6 +139,7 @@ namespace AccesoDatos
             }
             catch (Exception ex)
             {
+                connection.Close();
                 throw ex;
             }
 

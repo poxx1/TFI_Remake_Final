@@ -71,10 +71,6 @@ E:\UAI_TFI_2023-master\UAI_TFI_2023-master\API\obj\Debug\API.csproj.CoreCompileI
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\API\obj\Debug\API.csproj.CopyComplete
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\API\obj\Debug\API.dll
 E:\UAI_TFI_2023-master\UAI_TFI_2023-master\API\obj\Debug\API.pdb
-C:\Entrega final\Entrega_Final\API\bin\SqlServerTypes\x64\msvcr120.dll
-C:\Entrega final\Entrega_Final\API\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Entrega final\Entrega_Final\API\bin\SqlServerTypes\x86\msvcr120.dll
-C:\Entrega final\Entrega_Final\API\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
 C:\Entrega final\Entrega_Final\API\bin\API.dll.config
 C:\Entrega final\Entrega_Final\API\bin\API.dll
 C:\Entrega final\Entrega_Final\API\bin\API.pdb
