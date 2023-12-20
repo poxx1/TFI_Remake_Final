@@ -43,20 +43,20 @@
                 </button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li id="Utilidades" runat="server" class="nav-item"><a class="nav-link logOut" runat="server" href="~/MenuUtilidad">Utilidades</a></li>
-                        <li id="Clientes" runat="server" class="nav-item"><a class="nav-link logOut" runat="server" href="~/MenuUsuarios">Clientes</a></li>
-                        <li id="Compras" runat="server" class="nav-item"><a class="nav-link logOut" runat="server" href="~/MenuCompras">Compras</a></li>
-                        <li id="Interprete" runat="server" class="nav-item"><a class="nav-link logOut" runat="server" href="~/MenuTraductor">Interprete</a></li>
-                        <li class="nav-item"><a class="nav-link logOut" runat="server" href="~/LogOut">Logout</a></li>
-                        <li> <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Idioma: ES" BorderStyle="None" OnClientClick="" Font-Size="14px"/></li>
-                        <%-- <li class="nav-item"><a class="nav-link logOut" runat="server" href="~/LogOut">Idioma</a></li>--%><%-- <%<--li id="interprete" class="nav-item"><a class="nav-link logOut" runat="server" href="~/Interprete">Interprete</a></li>--%><%-- 
-                               <asp:Button ID="Button8" CssClass="logOut" runat="server" OnClick="Idioma" Text="Idioma" />
-                          <asp:DropDownList class="customDrop" id="AdminList" AutoPostBack="true"  runat="server" OnSelectedIndexChanged="AdminList_SelectedIndexChanged"></asp:DropDownList>
-                        <asp:DropDownList class="customDrop" id="UserList" AutoPostBack="true"  runat="server" OnSelectedIndexChanged="UserList_SelectedIndexChanged"></asp:DropDownList>
-                        <asp:DropDownList class="customDrop" id="PermissionList" AutoPostBack="true"  runat="server" OnSelectedIndexChanged="PermissionList_SelectedIndexChanged"></asp:DropDownList>
-                        <asp:DropDownList class="customDrop" id="SolicitudesList" AutoPostBack="true"  runat="server" OnSelectedIndexChanged="SolicitudesListIndexChanged"></asp:DropDownList>
-                        <asp:DropDownList class="customDrop" id="ComprasList" AutoPostBack="true"  runat="server" OnSelectedIndexChanged="ComprasListIndexChanged"></asp:DropDownList>
-                        >--%>
+                        <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Utilidades" BorderStyle="None" OnClientClick="" Font-Size="14px" Width="126px"/>
+                        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Clientes" BorderStyle="None" OnClientClick="" Font-Size="14px" Width="126px"/>
+                        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Compras" BorderStyle="None" OnClientClick="" Font-Size="14px" Width="126px"/>
+                        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Interprete" BorderStyle="None" OnClientClick="" Font-Size="14px" Width="126px"/>
+                        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Logout" BorderStyle="None" OnClientClick="" Font-Size="14px" Width="126px"/>
+                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Idioma: ES" BorderStyle="None" OnClientClick="" Font-Size="14px" Width="126px"/>
+                        <%-- 
+                            <li id="Utilidades" runat="server" class="nav-item"><a class="nav-link logOut" runat="server" href="~/MenuUtilidad">Utilidades</a></li>
+    <li id="Clientes" runat="server" class="nav-item"><a class="nav-link logOut" runat="server" href="~/MenuUsuarios">Clientes</a></li>
+    <li id="Compras" runat="server" class="nav-item"><a class="nav-link logOut" runat="server" href="~/MenuCompras">Compras</a></li>
+    <li id="Interprete" runat="server" class="nav-item"><a class="nav-link logOut" runat="server" href="~/MenuTraductor">Interprete</a></li>
+    <li class="nav-item"><a class="nav-link logOut" runat="server" href="~/LogOut">Logout</a></li>
+    <li> <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Idioma: ES" BorderStyle="None" OnClientClick="" Font-Size="14px"/></li>
+                        --%>
                     </ul>
                 </div>
             </div>

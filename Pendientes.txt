@@ -1,9 +1,6 @@
 ###################################### Errores pendientes de modificacion ##################################################
 
 2. Agregar los permisos bien a todas las paginas y hacer el enable/disable de los controles
-3. Copiarme bitacora de lo de juanca porque los filtros andan para la mierda
-4. Agregar los puntos B, C y D de la bitacora. (26 en la hoja del profe).
-5. Traducir los botones LI del header
 
 A. TESTEAR COMO HIJO DE REMIL PUTA
 B. INTENTAR HACER EL DEPLOY
