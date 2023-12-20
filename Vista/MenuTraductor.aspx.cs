@@ -22,7 +22,7 @@ namespace Vista
             if ((int)Session["language"] == 1)
             {
                 title.InnerText = "Menu del interprete";
-                title2.InnerText = "Seccion del intermprete";
+                title2.InnerText = "Seccion del interprete";
                 title3.InnerText = "Seccion de las solicitudes/traducciones";
                 Button1.Text = "Interprete virtual";
                 Button2.Text = "Agregar traduccion";

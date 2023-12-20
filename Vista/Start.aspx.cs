@@ -34,19 +34,19 @@ namespace Vista
 
                 if(user.Language == 2) { Session["language"] = 2; HttpContext.Current.Response.Redirect("Default.aspx"); }
                 HttpContext.Current.Response.Redirect("Default.aspx");
-                GlobalMessage.MessageBox(this, $"Login de {user.Nickname} realizado con exito!");
+                (Master as SiteMaster).alert.ShowAlert("Login OK");
             }
             else
                 if (login.isCorruputed == true) {
                 foreach (var item in login.corrputionList)
                 {
-                    GlobalMessage.MessageBox(this, $"DB Corrputa. {item}");
+                    (Master as SiteMaster).alert.ShowAlert("La DB esta corrpta");
                 }
 
             }
             else
             {
-                GlobalMessage.MessageBox(this, $"Login de {user.Nickname} ha fallado!");
+                c
             }
         }
 

@@ -17,6 +17,7 @@
                 <asp:TextBox class="customTextbox" ID="TextBox1" runat="server"></asp:TextBox><br/><br/>
                 <asp:Label ID="Label2" runat="server" Text=" Contraseña"></asp:Label><br/>
                 <asp:TextBox class="customTextbox" ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox><br/><br/>
+            <asp:Label ID="Label3" runat="server" Text=" "></asp:Label><br/>
             <hr />
             <asp:Button class="customButton" ID="Button1" runat="server" OnClick="Button1_Click" Text="Login" />
         </div>

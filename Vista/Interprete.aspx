@@ -6,7 +6,7 @@
        <hr />
         <div>
             <asp:Label ID="Label2" runat="server" Text="Ingrese la palabra a interpretar"></asp:Label><br />
-            <input id="Text1" type="text" required="required"/><br><br>
+            <input id="Text1" type="text"/><br><br>
             <input id="Button2" runat="server" type="button" onclick="onButtonClick()" value="Interpretar" /><hr />
         </div>
         <video id="video" width="640" height="480" autoplay>
