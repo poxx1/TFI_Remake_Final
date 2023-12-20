@@ -92,32 +92,36 @@ namespace Vista
             }
             catch(Exception ex) 
             {
-                throw ex;
+                (Master as SiteMaster).alert.ShowAlert("Error en el proceso, intente nuevamente");
             }
         }
         protected void Button2_Click(object sender, EventArgs e)
         {
-            pdf p = new pdf();
-
-            List<string> lista = (List<string>)Session["carrito"];
-            cursos = new List<CursosModel>();
-
-            foreach (object item in lista)
+            try
             {
-                var cursoActual = listarCursos().Where(x => x.Name.Contains(item.ToString())).ToList().First();
-                cursos.Add(cursoActual);
+                pdf p = new pdf();
+
+                List<string> lista = (List<string>)Session["carrito"];
+                cursos = new List<CursosModel>();
+
+                foreach (object item in lista)
+                {
+                    var cursoActual = listarCursos().Where(x => x.Name.Contains(item.ToString())).ToList().First();
+                    cursos.Add(cursoActual);
+                }
+
+                p.create(cursos);
+                ListBox1.Items.Clear();
+                MenuItems.items.Clear();
+
+                calcularPrecio();
+
+                BitacoraService bitacoraService = new BitacoraService();
+                UserModel user = new UserModel();
+                bitacoraService.LogData("Login", $"El usuario {user.Name} realizo una compra.", "Media");
+                (Master as SiteMaster).alert.ShowAlert("Compra realizada con exito");
             }
-
-            p.create(cursos);
-            ListBox1.Items.Clear();
-            MenuItems.items.Clear();
-
-            calcularPrecio();
-
-            BitacoraService bitacoraService = new BitacoraService();
-            UserModel user = new UserModel();
-            bitacoraService.LogData("Login", $"El usuario {user.Name} realizo una compra.", "Media");
-            GlobalMessage.MessageBox(this, $"Se realizo la compra exitosamente");
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("No se pudo realizar la compra"); }
         }
         private List<CursosModel> listarCursos()
         {

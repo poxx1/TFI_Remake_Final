@@ -47,11 +47,11 @@ namespace Vista
                 BitacoraService bitacoraService = new BitacoraService();
                 UserModel user = new UserModel();
                 bitacoraService.LogData("Login", $"El usuario {user.Name} agrego un curso.", "Media");
-                GlobalMessage.MessageBox(this, $"Se agrego el curso");
+                (Master as SiteMaster).alert.ShowAlert("Se agrego el curso solicitado");
             }
             catch(Exception ex) 
-            { 
-                GlobalMessage.MessageBox(this,ex.Message+"SayIt - Error"); 
+            {
+                (Master as SiteMaster).alert.ShowAlert("No se pudo agregar el item, intente nuevamente");
             }
         }
         protected void TextBox3_TextChanged(object sender, EventArgs e)

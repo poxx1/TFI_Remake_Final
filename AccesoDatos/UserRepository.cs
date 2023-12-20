@@ -192,6 +192,8 @@ namespace AccesoDatos
                 reader.Close();
                 connection.Close();
 
+                //updateDVV();
+
                 if (user != null)
                 {
                     //permisosRepository.FillUserComponents(user);
@@ -222,6 +224,7 @@ namespace AccesoDatos
 
                 reader.Close();
                 connection.Close();
+                updateDVV();
 
                 if (user != null)
                 {

@@ -99,7 +99,7 @@ namespace Vista
 
                 if (AddUser(user))
                 {
-                    (Master as SiteMaster).alert.ShowAlert("Operacion realizada con exito");
+                    (Master as SiteMaster).alert.ShowAlert("Se agrego al usuario con exito");
 
                     BitacoraService bitacoraService = new BitacoraService();
                     bitacoraService.LogData("Login", $"El usuario {user.Name} agrego un usuario nuevo.", "Media");
@@ -108,7 +108,7 @@ namespace Vista
                     (Master as SiteMaster).alert.ShowError("No se pudo agregar al usuario");
             }
             else
-                (Master as SiteMaster).alert.ShowAlert("Alguno de los campos que intento ingresar no es valido.");
+                (Master as SiteMaster).alert.ShowAlert("Alguno de los campos que intento ingresar no es valido. Por favor revise y vuelva a intentar");
         }
 
         public bool isValidEmail(string emailaddress)

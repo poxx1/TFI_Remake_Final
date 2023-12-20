@@ -30,10 +30,10 @@ namespace Vista
                 var myFile = directory.GetFiles().OrderByDescending(f => f.LastWriteTime).ToList().Where(x => x.Extension == ".bak").ToList().First();
                 pathActual = myFile.FullName;
                 backup.realizarRestore(pathActual);
-                GlobalMessage.MessageBox(this, "Se restauro la base de datos correctamente");
+                (Master as SiteMaster).alert.ShowAlert("Se realizo el backup correctamente");
                 HttpContext.Current.Response.Redirect("Start.aspx");
             }
-            catch (Exception ex) { GlobalMessage.MessageBox(this, "Error restaurando la DB" + ex.Message); }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error restaurando el backup"); }
             }
         protected void Button2_Click(object sender, EventArgs e)
         {
@@ -41,10 +41,10 @@ namespace Vista
             {
                 //Recalcular digitos verificadores.
                 integrityService.recalcDV();
-                GlobalMessage.MessageBox(this, "Se recalcularon los digitos verificadores");
+                (Master as SiteMaster).alert.ShowAlert("Se recalcularon los digitos con exito");
                 HttpContext.Current.Response.Redirect("Default.aspx");
             }
-            catch (Exception ex) { GlobalMessage.MessageBox(this, "Error recalculando los DV de la DB" + ex.Message); }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("No se pudo recalcular el digito verificador"); }
         }
     }
 }

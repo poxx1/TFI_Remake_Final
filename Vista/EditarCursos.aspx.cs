@@ -74,19 +74,23 @@ namespace Vista
         {
             //Editar los datos del curso
             //Get current curso
-            string cursoActual = DropDownList1.SelectedValue;
-            CursosModel currentCurso = new CursosModel();
-            currentCurso = cs.listCursos().Where(x => x.Name == cursoActual).ToList().FirstOrDefault();
-            currentCurso.Name = TextBox1.Text;
-            currentCurso.Description = TextBox2.Text;
-            currentCurso.Price = float.Parse(TextBox3.Text);
-            cs.updateCurso(currentCurso);
-            cargarDropDown();
+            try
+            {
+                string cursoActual = DropDownList1.SelectedValue;
+                CursosModel currentCurso = new CursosModel();
+                currentCurso = cs.listCursos().Where(x => x.Name == cursoActual).ToList().FirstOrDefault();
+                currentCurso.Name = TextBox1.Text;
+                currentCurso.Description = TextBox2.Text;
+                currentCurso.Price = float.Parse(TextBox3.Text);
+                cs.updateCurso(currentCurso);
+                cargarDropDown();
 
-            BitacoraService bitacoraService = new BitacoraService();
-            UserModel user = new UserModel();
-            bitacoraService.LogData("Login", $"El usuario {user.Name} edito un curso.", "Media");
-            GlobalMessage.MessageBox(this, "Se realizo el backup");
+                BitacoraService bitacoraService = new BitacoraService();
+                UserModel user = new UserModel();
+                bitacoraService.LogData("Login", $"El usuario {user.Name} edito un curso.", "Media");
+                (Master as SiteMaster).alert.ShowAlert("Se edito el curso con exito");
+            }
+            catch(Exception ex) { (Master as SiteMaster).alert.ShowError("No se pudo editar el curso, intente nuevamente"); }
         }
     }
 }

@@ -30,9 +30,14 @@ namespace Vista
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            GridView1.DataSource = null;
-            GridView1.DataSource = UserList();
-            GridView1.DataBind();
+            try
+            {
+                GridView1.DataSource = null;
+                GridView1.DataSource = UserList();
+                GridView1.DataBind();
+
+            }
+            catch(Exception ex) { (Master as SiteMaster).alert.ShowError("Error listando los usuarios"); }
         }
 
         private List<UserModel> UserList() { 

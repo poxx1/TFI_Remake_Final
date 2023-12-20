@@ -12,6 +12,7 @@ using Controladores;
 using Model;
 using Modelos;
 using Servicios;
+using Vista.Customs;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
@@ -38,12 +39,17 @@ namespace Vista
             }
 
             //Totales
-            GridView1.DataSource = salida.solicitudesTotales();
-            GridView1.DataBind();
+            try
+            {
+                GridView1.DataSource = salida.solicitudesTotales();
+                GridView1.DataBind();
+            }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error escribiendo el XML. Valida que tenga permisos de escritura"); }
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
             //Pendientes
+            try { 
             GridView1.DataSource = salida.solicitudesAprobadas();
             GridView1.DataBind();
             exportarXML(salida.solicitudesAprobadas());
@@ -51,13 +57,14 @@ namespace Vista
             BitacoraService bitacoraService = new BitacoraService();
             UserModel user = new UserModel();
             bitacoraService.LogData("Login", $"El usuario {user.Name} listo el XML.", "Media");
-
-
-            GlobalMessage.MessageBox(this, $"Se listo el XML");
-        }
+                (Master as SiteMaster).alert.ShowError("Se exporto correctamente el XML");
+            }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error escribiendo el XML. Valida que tenga permisos de escritura"); }
+}
         protected void Button2_Click(object sender, EventArgs e)
         {
             //Aprobadas
+            try { 
             GridView1.DataSource = salida.solicitudesPendientes();
             GridView1.DataBind();
             exportarXML(salida.solicitudesPendientes());
@@ -66,9 +73,13 @@ namespace Vista
             bitacoraService.LogData("Login", $"El usuario {user.Name} listo el XML.", "Media");
             //GlobalMessage.MessageBox(this, $"Se listo el XML","success");
             ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "swal('Titulo?','Body?'," + "success" + ")",true);
+                (Master as SiteMaster).alert.ShowError("Se exporto correctamente el XML");
+            }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error escribiendo el XML. Valida que tenga permisos de escritura"); }
         }
         protected void Button3_Click(object sender, EventArgs e)
         {
+            try { 
             //Totales
             GridView1.DataSource = salida.solicitudesTotales();
             GridView1.DataBind();
@@ -76,7 +87,9 @@ namespace Vista
             BitacoraService bitacoraService = new BitacoraService();
             UserModel user = new UserModel();
             bitacoraService.LogData("Login", $"El usuario {user.Name} listo el XML.", "Media");
-            GlobalMessage.MessageBox(this, $"Se listo el XML");
+                (Master as SiteMaster).alert.ShowError("Se exporto correctamente el XML");
+            }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error escribiendo el XML. Valida que tenga permisos de escritura"); }
 
         }
 
@@ -101,7 +114,7 @@ namespace Vista
                     writer.Close();
                 }   
             }
-            catch (Exception ex) { }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error escribiendo el XML. Valida que tenga permisos de escritura"); }
 
             return true;
         }

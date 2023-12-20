@@ -35,15 +35,20 @@ namespace Vista
         }
         protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-                string userName = ListBox1.Text;
-                if(us.delete(userName))
-                    GlobalMessage.MessageBox(this, $"Se elimino a {userName} del sistema");
-                else
-                    GlobalMessage.MessageBox(this, $"No se pudo eliminar a {userName} del sistema");
+                //string userName = ListBox1.Text;
+                //if(us.delete(userName))
+                //    GlobalMessage.MessageBox(this, $"Se elimino a {userName} del sistema");
+                //else
+                //    GlobalMessage.MessageBox(this, $"No se pudo eliminar a {userName} del sistema");
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            string userName = ListBox1.Text;
+            if (us.delete(userName))
+                (Master as SiteMaster).alert.ShowAlert("Se elimino al usuario seleccionado del sistema");
+            else
+                (Master as SiteMaster).alert.ShowError("No se pudo eliminar al usuario intente nuevamente");
 
         }
     }

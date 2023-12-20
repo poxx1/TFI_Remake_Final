@@ -31,26 +31,37 @@ namespace Vista
         }
         protected void Button2_Click(object sender, EventArgs e)
         {
-            checkCreateDirectory();
-            backup.realizarBackup("C://Backup");
-            BitacoraService bitacoraService = new BitacoraService();
-            UserModel user = new UserModel();
-            bitacoraService.LogData("Login", $"El usuario {user.Name} realizo un backup.", "Media");
-            GlobalMessage.MessageBox(this, "Se realizo el backup");
+            try
+            {
+                checkCreateDirectory();
+                backup.realizarBackup("C://Backup");
+                BitacoraService bitacoraService = new BitacoraService();
+                UserModel user = new UserModel();
+                bitacoraService.LogData("Login", $"El usuario {user.Name} realizo un backup.", "Media");
+                (Master as SiteMaster).alert.ShowAlert("Operacion exitosa. Se realizo el backup con exito");
+
+            }
+            catch (Exception ex) {
+                (Master as SiteMaster).alert.ShowError("Error creando el backup");
+            }
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
             if (IsPostBack)
             {
-                checkCreateDirectory();
-                pathActual = "C://Backup//" + FileUpload1.FileName;
+                try
+                {
+                    checkCreateDirectory();
+                    pathActual = "C://Backup//" + FileUpload1.FileName;
 
-                backup.realizarRestore(pathActual);
+                    backup.realizarRestore(pathActual);
 
-                BitacoraService bitacoraService = new BitacoraService();
-                UserModel user = new UserModel();
-                bitacoraService.LogData("Login", $"El usuario {user.Name} realizo un restore de la base de datos.", "Media");
-                GlobalMessage.MessageBox(this,"Se realizo el restore");
+                    BitacoraService bitacoraService = new BitacoraService();
+                    UserModel user = new UserModel();
+                    bitacoraService.LogData("Login", $"El usuario {user.Name} realizo un restore de la base de datos.", "Media");
+                    (Master as SiteMaster).alert.ShowAlert("Se realizo el restore correctamente");
+                }
+                catch(Exception ex) { (Master as SiteMaster).alert.ShowError("No se pudo realizar el restore. Intente nuevamente"); }
             }
         }
         private void checkCreateDirectory()

@@ -78,11 +78,12 @@ namespace Vista
                 im.Name = TextBox1.Text;
 
                 ss.UpdateSolicitud(im);
-
+                (Master as SiteMaster).alert.ShowAlert("Se edito la traduccion/solicitud correctamente");
                 //Mensaje de oki
             }
             catch (Exception ex)
             {
+                (Master as SiteMaster).alert.ShowAlert("No se pudo editar la solicitud/traduccion");
                 //Mensaje de error
             }
         }

@@ -41,5 +41,10 @@ namespace Vista
             }
             catch { (Master as SiteMaster).alert.ShowError("No se pudo agregar a la familia"); }
         }
+
+        protected void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

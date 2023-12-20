@@ -136,6 +136,7 @@ namespace Vista
                 {
                     family.AddChild(patent);
                     permissionsService.SaveFamily(family);
+                    (Master as SiteMaster).alert.ShowAlert("Se agrego la patente con exito");
                 }
                 else
                 {
@@ -163,7 +164,7 @@ namespace Vista
                 {
                     family.RemoveChild(family.Childs.Find(item => patent.Id == item.Id));
                     permissionsService.SaveFamily(family);
-
+                    (Master as SiteMaster).alert.ShowAlert("Se quito la patente con exito");
                 }
                 else
                 {
@@ -193,6 +194,8 @@ namespace Vista
                 {
                     family.AddChild(family2);
                     permissionsService.SaveFamily(family);
+
+                    (Master as SiteMaster).alert.ShowAlert("Se guardo la familia con exito");
                 }
                 else
                 {
@@ -221,7 +224,7 @@ namespace Vista
                 {
                     family.RemoveChild(family.Childs.Find(item => family2.Id == item.Id));
                     permissionsService.SaveFamily(family);
-
+                    (Master as SiteMaster).alert.ShowAlert("Se elimino la familia con exito");
                 }
                 else
                 {
@@ -248,6 +251,7 @@ namespace Vista
 
                 };
                 permissionsService.SaveComponent(p, true);
+                (Master as SiteMaster).alert.ShowAlert("Se creo la familia con exito");
             }
             catch (Exception)
             {

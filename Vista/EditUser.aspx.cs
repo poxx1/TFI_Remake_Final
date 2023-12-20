@@ -133,13 +133,13 @@ namespace Vista
                     BitacoraService bitacoraService = new BitacoraService();
                     UserModel user = new UserModel();
                     bitacoraService.LogData("Login", $"El usuario {user.Name} edito un curso.", "Media");
-                    GlobalMessage.MessageBox(this, $"Se edito a {userName}");
+                    (Master as SiteMaster).alert.ShowAlert("Se edito correctamente al usuario");
                 }
                 else
-                    GlobalMessage.MessageBox(this, $"No se pudo editar a {userName}");
+                    (Master as SiteMaster).alert.ShowError("No se pudo editar al usuario");
             }
             else
-                GlobalMessage.MessageBox(this, $"Ingreso un campo invalido. Por favor revisar.");
+                (Master as SiteMaster).alert.ShowError("Error en la validacion de los campos de la DB");
         }
         protected void Button2_Click(object sender, EventArgs e)
         {

@@ -40,19 +40,34 @@ namespace Vista
         protected void Button1_Click(object sender, EventArgs e)
         {
             //solicitudesAprobadas
-            Label2.Text = "Cantidad: " + ws.llamarWebService("solicitudesAprobadas").ToString();
+            try
+            {
+                Label2.Text = "Cantidad: " + ws.llamarWebService("solicitudesAprobadas").ToString();
+                (Master as SiteMaster).alert.ShowAlert("Se llamo al webservice con exito");
+            }
+            catch(Exception ex) { (Master as SiteMaster).alert.ShowError("Error llamando al WS, intente nuevamente"); }
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            //solicitudesPendientes
-            Label3.Text = "Cantidad: " + ws.llamarWebService("solicitudesPendientes").ToString();
+            try
+            {
+                //solicitudesPendientes
+                Label3.Text = "Cantidad: " + ws.llamarWebService("solicitudesPendientes").ToString();
+                (Master as SiteMaster).alert.ShowAlert("Se llamo al webservice con exito");
+            }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error llamando al WS, intente nuevamente"); }
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            //solicitudesTotales
-            Label4.Text = "Cantidad: " + ws.llamarWebService("solicitudesTotales").ToString();
+            try
+            {
+                //solicitudesTotales
+                Label4.Text = "Cantidad: " + ws.llamarWebService("solicitudesTotales").ToString();
+                (Master as SiteMaster).alert.ShowAlert("Se llamo al webservice con exito");
+            }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error llamando al WS, intente nuevamente"); }
         }
     }
 }

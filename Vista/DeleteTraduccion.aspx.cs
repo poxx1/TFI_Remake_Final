@@ -53,12 +53,18 @@ namespace Vista
         protected void Button2_Click(object sender, EventArgs e)
         {
             //Delte
-            InterpretacionModel im = new InterpretacionModel();
-            string name = TextBox1.Text;
+            try
+            {
+                InterpretacionModel im = new InterpretacionModel();
+                string name = TextBox1.Text;
 
-            im = ss.listSolicitud().Where(x=>x.Name == name).FirstOrDefault();
+                im = ss.listSolicitud().Where(x => x.Name == name).FirstOrDefault();
 
-            ss.deleteSolicitud(im);
+                ss.deleteSolicitud(im);
+
+                (Master as SiteMaster).alert.ShowAlert("Se elimino la traduccion con exito");
+            }
+            catch(Exception ex) { (Master as SiteMaster).alert.ShowError("Error al momento de eliminar la traducicon"); }
         }
     }
 }

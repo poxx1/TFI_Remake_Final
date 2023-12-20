@@ -9,20 +9,24 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if ((int)Session["language"] == 1)
+            try
             {
-                title.InnerText = "Listar cursos";
-            }
-            else
-            {
-                title.InnerText = "List courses";
-            }
+                if ((int)Session["language"] == 1)
+                {
+                    title.InnerText = "Listar cursos";
+                }
+                else
+                {
+                    title.InnerText = "List courses";
+                }
 
-            CursosService cs = new CursosService();
+                CursosService cs = new CursosService();
 
-            List<CursosModel> list = new List<CursosModel>();
-            GridView1.DataSource = cs.listCursos();
-            GridView1.DataBind();
+                List<CursosModel> list = new List<CursosModel>();
+                GridView1.DataSource = cs.listCursos();
+                GridView1.DataBind();
+            }
+            catch(Exception ex) { (Master as SiteMaster).alert.ShowError("No se pudieron listar los cursos, intente nuevamente"); }
         }
     }
 }

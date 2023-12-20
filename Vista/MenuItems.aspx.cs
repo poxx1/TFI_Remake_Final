@@ -92,26 +92,31 @@ namespace Vista
         }
         protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            CursosModel cursoActual = new CursosModel();
-            string curso = ListBox1.SelectedValue.ToString();
-            //string[] curso = cursoFull[0].ToString().Split(' ');
-
-            cursoActual = listarCursos().Where(x => x.Name.Contains(curso.ToString())).ToList().First();
-
-            if (cursoActual != null)
+            try
             {
-                Label4.Text = cursoActual.Name;
-                Label3.Text = "ARS$" + cursoActual.Price.ToString();
-                Label2.Text = cursoActual.Description;
+                CursosModel cursoActual = new CursosModel();
+                string curso = ListBox1.SelectedValue.ToString();
+                //string[] curso = cursoFull[0].ToString().Split(' ');
+
+                cursoActual = listarCursos().Where(x => x.Name.Contains(curso.ToString())).ToList().First();
+
+                if (cursoActual != null)
+                {
+                    Label4.Text = cursoActual.Name;
+                    Label3.Text = "ARS$" + cursoActual.Price.ToString();
+                    Label2.Text = cursoActual.Description;
+                }
+
+                if (items != null)
+                    items.Add(ListBox1.SelectedValue.ToString());
+
+                BitacoraService bitacoraService = new BitacoraService();
+                UserModel user = new UserModel();
+                bitacoraService.LogData("Login", $"El usuario {user.Name} agrego un item al carrito.", "Media");
+                GlobalMessage.MessageBox(this, $"Se agrego el item al carrito");
+
             }
-
-            if(items!=null)
-                items.Add(ListBox1.SelectedValue.ToString());
-
-            BitacoraService bitacoraService = new BitacoraService();
-            UserModel user = new UserModel();
-            bitacoraService.LogData("Login", $"El usuario {user.Name} agrego un item al carrito.", "Media");
-            GlobalMessage.MessageBox(this, $"Se agrego el item al carrito");
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Intente nuevamente"); }
         }
         private List<CursosModel> listarCursos() {
             return cs.listCursos();
@@ -119,18 +124,22 @@ namespace Vista
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (Session["carrito"] != null)
+            try
             {
-                List<string> lista = (List<string>)Session["carrito"];
-
-                foreach (object item in lista)
+                if (Session["carrito"] != null)
                 {
-                    var cursoActual = listarCursos().Where(x => x.Name.Contains(item.ToString())).ToList().First();
-                    cursos.Add(ListBox1.SelectedValue.ToString());
+                    List<string> lista = (List<string>)Session["carrito"];
+
+                    foreach (object item in lista)
+                    {
+                        var cursoActual = listarCursos().Where(x => x.Name.Contains(item.ToString())).ToList().First();
+                        cursos.Add(ListBox1.SelectedValue.ToString());
+                    }
+                    ListBox2.DataSource = lista;
+                    ListBox2.DataBind();
                 }
-                ListBox2.DataSource = lista;
-                ListBox2.DataBind();
             }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error agregando items al carrito"); }
         }
     }
 }
