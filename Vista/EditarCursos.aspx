@@ -10,11 +10,11 @@
     <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Seleccionar curso"/>
     <hr />
     <asp:Label ID="Label2" runat="server" Text="Nombre"></asp:Label><br />
-    <asp:TextBox ID="TextBox1" runat="server" required="required" Width="250px"></asp:TextBox><br />
+    <asp:TextBox ID="TextBox1" runat="server" Width="250px"></asp:TextBox><br />
     <asp:Label ID="Label3" runat="server" Text="Detalles"></asp:Label><br />
-    <asp:TextBox ID="TextBox2" runat="server" required="required" Width="250px"></asp:TextBox><br />
+    <asp:TextBox ID="TextBox2" runat="server" Width="250px"></asp:TextBox><br />
     <asp:Label ID="Label4" runat="server" Text="Precio"></asp:Label><br />
-    <asp:TextBox ID="TextBox3" runat="server" required="required" Width="250px"></asp:TextBox>
+    <asp:TextBox ID="TextBox3" runat="server" Width="250px"></asp:TextBox>
     <hr />
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Editar curso"/>
         <hr />

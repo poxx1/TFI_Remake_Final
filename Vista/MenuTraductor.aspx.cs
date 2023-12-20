@@ -11,6 +11,14 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(!(bool)Session["permission"])
+            { 
+                Button2.Enabled = false;
+                Button3.Enabled = false;
+                Button4.Enabled = false;
+                Button5.Enabled = false;
+            }
+
             if ((int)Session["language"] == 1)
             {
                 title.InnerText = "Menu del interprete";
@@ -33,7 +41,6 @@ namespace Vista
                 Button4.Text = "List translations";
                 Button5.Text = "Delete translations";
             }
-
         }
 
         protected void Button1_Click(object sender, EventArgs e)

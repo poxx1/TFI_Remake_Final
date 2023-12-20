@@ -94,11 +94,11 @@ namespace Vista
                 {
                     isValidData = false; GlobalMessage.MessageBox(this, $"El Apellido no es valido");
                 }
-                if (!Regex.IsMatch(TextBox3.Text, "^([a-zA-Z]+$)"))//Letters only NICK
+                if (!Regex.IsMatch(TextBox4.Text, "^([a-zA-Z]+$)"))//Letters only NICK
                 {
                     isValidData = false; GlobalMessage.MessageBox(this, $"El Nickname no es valido, solo letras");
                 }
-                int count = TextBox4.Text.ToCharArray().Count();
+                int count = TextBox5.Text.ToCharArray().Count();
                 if (count <= 7)//(!Regex.IsMatch(TextBox3.Text, "^(\\s*(\\S)\\s*){8,}\r\n"))//PASSWORD > 8
                 {
                     isValidData = false; GlobalMessage.MessageBox(this, $"La password no es valida, mayor a 8 caracteres");
@@ -179,6 +179,20 @@ namespace Vista
             catch (Exception ex) { (Master as SiteMaster).alert.ShowError("No se pudo desbloquear al usuario"); }
         }
         protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string userName = ListBox1.Text;
+            UserModel usuario = us.Get(userName);
+            TextBox1.Text = usuario.Dni;
+            TextBox2.Text = usuario.Name;
+            TextBox3.Text = usuario.LastName;
+            TextBox4.Text = usuario.Nickname;
+            TextBox5.Text = "";
+            TextBox6.Text = usuario.Mail;
+            TextBox7.Text = usuario.Phone;
+            TextBox8.Text = usuario.Adress;
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
         {
             string userName = ListBox1.Text;
             UserModel usuario = us.Get(userName);

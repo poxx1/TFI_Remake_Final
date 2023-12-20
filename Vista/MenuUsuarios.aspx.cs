@@ -11,6 +11,15 @@ namespace Vista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!(bool)Session["permission"])
+            {
+                Button1.Enabled = false;
+                Button2.Enabled = false;
+                Button3.Enabled = false;
+                Button4.Enabled = false;
+                Button5.Enabled = false;
+            }
+
             if ((int)Session["language"] == 1)
             {
                 title.InnerText = "Menu de usuarios";
