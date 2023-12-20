@@ -28,20 +28,23 @@ namespace Vista
                 Button2.Text = "Delete";
             }
 
-            //Falta cagargar bien la lista y desues revisar si cambio bien la data en los otros metodos
-            if (!IsPostBack)
+            try
             {
-                List<InterpretacionModel> lista = ss.listSolicitud().ToList();
-                List<string> strings = new List<string>();
-                
-                foreach(InterpretacionModel model in lista)
+                if (!IsPostBack)
                 {
-                    strings.Add(model.Name.ToString());
-                }
+                    List<InterpretacionModel> lista = ss.listSolicitud().ToList();
+                    List<string> strings = new List<string>();
 
-                ListBox1.DataSource = strings;
-                ListBox1.DataBind();
+                    foreach (InterpretacionModel model in lista)
+                    {
+                        strings.Add(model.Name.ToString());
+                    }
+
+                    ListBox1.DataSource = strings;
+                    ListBox1.DataBind();
+                }
             }
+            catch (Exception ex) { }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -65,6 +68,21 @@ namespace Vista
                 (Master as SiteMaster).alert.ShowAlert("Se elimino la traduccion con exito");
             }
             catch(Exception ex) { (Master as SiteMaster).alert.ShowError("Error al momento de eliminar la traducicon"); }
+
+            try
+            {
+                    List<InterpretacionModel> lista = ss.listSolicitud().ToList();
+                    List<string> strings = new List<string>();
+
+                    foreach (InterpretacionModel model in lista)
+                    {
+                        strings.Add(model.Name.ToString());
+                    }
+
+                    ListBox1.DataSource = strings;
+                    ListBox1.DataBind();
+            }
+            catch (Exception ex) { }
         }
     }
 }

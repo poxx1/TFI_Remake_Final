@@ -47,15 +47,21 @@ namespace Vista
 
         private void cargarDropDown()
         {
-            List<CursosModel> list = new List<CursosModel>();
-            list = cs.listCursos();
-            List<string> cursos = new List<string>();
-            foreach (CursosModel curso in list)
+            try
             {
-                cursos.Add(curso.Name);
+                List<CursosModel> list = new List<CursosModel>();
+                list = cs.listCursos();
+                List<string> cursos = new List<string>();
+                foreach (CursosModel curso in list)
+                {
+                    cursos.Add(curso.Name);
+                }
+                DropDownList1.DataSource = cursos;
+                DropDownList1.DataBind();
             }
-            DropDownList1.DataSource = cursos;
-            DropDownList1.DataBind();
+            catch (Exception ex) { 
+                
+            }
         }
 
         protected void Button2_Click(object sender, EventArgs e)

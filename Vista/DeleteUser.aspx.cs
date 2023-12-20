@@ -27,11 +27,18 @@ namespace Vista
 
             if ((bool)Session["logged_in"] != true) HttpContext.Current.Response.Redirect("Start.aspx");
             if ((bool)Session["permission"] != true) HttpContext.Current.Response.Redirect("Start.aspx");
-
-            foreach (UserModel user in us.GetAll())
+            
+            try
             {
-                ListBox1.Items.Add(user.Nickname);
+                if (ListBox1.Items.Count != 0)
+                    ListBox1.Items.Clear();
+
+                foreach (UserModel user in us.GetAll())
+                {
+                    ListBox1.Items.Add(user.Nickname);
+                }
             }
+            catch (Exception) { }
         }
         protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -44,12 +51,26 @@ namespace Vista
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string userName = ListBox1.Text;
-            if (us.delete(userName))
-                (Master as SiteMaster).alert.ShowAlert("Se elimino al usuario seleccionado del sistema");
-            else
-                (Master as SiteMaster).alert.ShowError("No se pudo eliminar al usuario intente nuevamente");
+            try
+            {
+                string userName = ListBox1.Text;
+                if (us.delete(userName))
+                    (Master as SiteMaster).alert.ShowAlert("Se elimino al usuario seleccionado del sistema");
+                else
+                    (Master as SiteMaster).alert.ShowError("No se pudo eliminar al usuario intente nuevamente");
+            }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("No se pudo eliminar al usuario intente nuevamente"); }
+            try
+            {
+                if (ListBox1.Items.Count != 0)
+                    ListBox1.Items.Clear();
 
+                foreach (UserModel user in us.GetAll())
+                {
+                    ListBox1.Items.Add(user.Nickname);
+                }
+            }
+            catch (Exception) { }
         }
     }
 }

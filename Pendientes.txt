@@ -7,4 +7,3 @@
 1. Copiarme bitacora de lo de juanca porque los filtros andan para la mierda
 2. Validar todos los formularios por HTML o regex pero valida ctm.
 3. Agregar los permisos bien a todas las paginas y hacer el enable/disable de los controles
-6. Al finalizar los controles, tengo que recagar todos los listbox porque se bugea todo sino.

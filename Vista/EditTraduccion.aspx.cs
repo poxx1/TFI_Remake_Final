@@ -33,14 +33,20 @@ namespace Vista
             if (!IsPostBack)
             {
 
-                List<string> strings = new List<string>();
-                foreach (InterpretacionModel im in ss.listSolicitud())
+                try
                 {
-                    strings.Add(im.Name.ToString());
-                }
+                    List<string> strings = new List<string>();
+                    foreach (InterpretacionModel im in ss.listSolicitud())
+                    {
+                        strings.Add(im.Name.ToString());
+                    }
 
-                ListBox1.DataSource = strings;
-                ListBox1.DataBind();
+                    ListBox1.DataSource = strings;
+                    ListBox1.DataBind();
+                }
+                catch (Exception ex) { 
+                    
+                }
             }
         }
 
@@ -85,6 +91,21 @@ namespace Vista
             {
                 (Master as SiteMaster).alert.ShowAlert("No se pudo editar la solicitud/traduccion");
                 //Mensaje de error
+            }
+            try
+            {
+                List<string> strings = new List<string>();
+                foreach (InterpretacionModel im in ss.listSolicitud())
+                {
+                    strings.Add(im.Name.ToString());
+                }
+
+                ListBox1.DataSource = strings;
+                ListBox1.DataBind();
+            }
+            catch (Exception ex)
+            {
+
             }
         }
     }

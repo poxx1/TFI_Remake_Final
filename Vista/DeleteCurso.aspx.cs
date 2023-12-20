@@ -28,20 +28,24 @@ namespace Vista
                 Button1.Text = "Delete";
             }
 
-            if (!IsPostBack)
+            try
             {
-                CursosService cs = new CursosService();
-                List<CursosModel> lista = cs.listCursos();
-                List<string> listaList = new List<string>();
-
-                foreach (CursosModel cursos in lista)
+                if (!IsPostBack)
                 {
-                    listaList.Add(cursos.Name);
-                }
+                    CursosService cs = new CursosService();
+                    List<CursosModel> lista = cs.listCursos();
+                    List<string> listaList = new List<string>();
 
-                ListBox1.DataSource = listaList;
-                ListBox1.DataBind();
+                    foreach (CursosModel cursos in lista)
+                    {
+                        listaList.Add(cursos.Name);
+                    }
+
+                    ListBox1.DataSource = listaList;
+                    ListBox1.DataBind();
+                }
             }
+            catch (Exception ex) { }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -61,6 +65,24 @@ namespace Vista
                 cs.deleteCurso(cm);
 
                 (Master as SiteMaster).alert.ShowAlert("Se elimino el curso seleccionado");
+
+                try
+                {
+                    if (!IsPostBack)
+                    {
+                        List<CursosModel> lista = cs.listCursos();
+                        List<string> listaList = new List<string>();
+
+                        foreach (CursosModel cursos in lista)
+                        {
+                            listaList.Add(cursos.Name);
+                        }
+
+                        ListBox1.DataSource = listaList;
+                        ListBox1.DataBind();
+                    }
+                }
+                catch (Exception ex) { }
             }
             catch (Exception ex)
             {
