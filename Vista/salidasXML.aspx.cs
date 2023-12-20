@@ -57,7 +57,7 @@ namespace Vista
             BitacoraService bitacoraService = new BitacoraService();
             UserModel user = new UserModel();
             bitacoraService.LogData("Login", $"El usuario {user.Name} listo el XML.", "Media");
-                (Master as SiteMaster).alert.ShowError("Se exporto correctamente el XML");
+                (Master as SiteMaster).alert.ShowAlert("Se exporto correctamente el XML");
             }
             catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error escribiendo el XML. Valida que tenga permisos de escritura"); }
 }
@@ -73,7 +73,7 @@ namespace Vista
             bitacoraService.LogData("Login", $"El usuario {user.Name} listo el XML.", "Media");
             //GlobalMessage.MessageBox(this, $"Se listo el XML","success");
             ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "swal('Titulo?','Body?'," + "success" + ")",true);
-                (Master as SiteMaster).alert.ShowError("Se exporto correctamente el XML");
+                (Master as SiteMaster).alert.ShowAlert("Se exporto correctamente el XML");
             }
             catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error escribiendo el XML. Valida que tenga permisos de escritura"); }
         }
@@ -87,7 +87,7 @@ namespace Vista
             BitacoraService bitacoraService = new BitacoraService();
             UserModel user = new UserModel();
             bitacoraService.LogData("Login", $"El usuario {user.Name} listo el XML.", "Media");
-                (Master as SiteMaster).alert.ShowError("Se exporto correctamente el XML");
+                (Master as SiteMaster).alert.ShowAlert("Se exporto correctamente el XML");
             }
             catch (Exception ex) { (Master as SiteMaster).alert.ShowError("Error escribiendo el XML. Valida que tenga permisos de escritura"); }
 

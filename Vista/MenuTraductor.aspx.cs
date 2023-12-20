@@ -15,6 +15,7 @@ namespace Vista
             {
                 title.InnerText = "Menu del interprete";
                 title2.InnerText = "Seccion del intermprete";
+                title3.InnerText = "Seccion de las solicitudes/traducciones";
                 Button1.Text = "Interprete virtual";
                 Button2.Text = "Agregar traduccion";
                 Button3.Text = "Modificar traduccion";
@@ -23,8 +24,9 @@ namespace Vista
             }
             else
             {
-                title.InnerText = "Menu del interprete";
-                title2.InnerText = "Seccion del intermprete";
+                title.InnerText = "Interpreter menu";
+                title2.InnerText = "Interpreter section";
+                title3.InnerText = "Translation section";
                 Button1.Text = "Virtual interpreter";
                 Button2.Text = "Add translation";
                 Button3.Text = "Modify a translation";

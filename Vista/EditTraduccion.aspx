@@ -9,11 +9,11 @@
             <br />
             <hr />
             <asp:Label ID="Label1" runat="server" Text="Nombre"></asp:Label><br />
-            <asp:TextBox ID="TextBox1" runat="server" Width="248px"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" required="required" Width="248px"></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="Label3" runat="server" Text="Descripcion"></asp:Label><br />
-            <asp:TextBox ID="TextBox2" runat="server" Width="248px"></asp:TextBox>
+            <asp:TextBox ID="TextBox2" runat="server" required="required" Width="248px"></asp:TextBox>
             <br />
             <hr />
             <asp:Button ID="Button1" runat="server" Text="Seleccionar" OnClick="Button1_Click" />

@@ -51,15 +51,15 @@ namespace Vista
                 SolicitudService solicitud = new SolicitudService();
                 if (solicitud.createSolicitud(model))
                 {
-                    GlobalMessage.MessageBox(this, "Se creo la solicitud");
+                    (Master as SiteMaster).alert.ShowAlert("Se realizo la solicitud");
                 }
                 else
                 {
                     //Create alert
-                    GlobalMessage.MessageBox(this, "No se pudo crear la solicitud");
+                    (Master as SiteMaster).alert.ShowError("Error. No se elimino el curso seleccionado");
                 }
             }
-            catch (Exception ex) { GlobalMessage.MessageBox(this,ex.Message); }
+            catch (Exception ex) { (Master as SiteMaster).alert.ShowError("error, no se elimino el curso seleccionado"); }
         }
     }
 }
