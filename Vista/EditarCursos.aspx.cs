@@ -28,8 +28,8 @@ namespace Vista
             }
             else
             {
-                title.InnerText = "Editar curso";
-                Label1.Text = "Lista de cursos";
+                title.InnerText = "Edit course";
+                Label1.Text = "Courses list";
                 Label2.Text = "Name";
                 Label3.Text = "Details";
                 Label4.Text = "Price";
